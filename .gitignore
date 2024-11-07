@@ -9,5 +9,4 @@ wheels/
 # venv
 .venv
 
-# env
 .env

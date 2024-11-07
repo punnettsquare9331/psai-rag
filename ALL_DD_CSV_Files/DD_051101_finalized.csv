@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX051101_VitaminD_Collection_NanogramsPerLiter,Vitamin D Concentration in ng/L,DCW_051101.doc,decimal,ng/L,,,,,,PhenX,PX051101010100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

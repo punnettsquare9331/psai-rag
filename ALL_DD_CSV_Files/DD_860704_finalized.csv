@@ -1,0 +1,6 @@
+﻿VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,
+PX860704_Pain_Quality_Descriptors_Neuropathic_Adult_Pins_Needles,Did your pain feel like pins and needles?,DCW_860704.doc,encoded values,,,,,,,PhenX,PX860704010000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860704_Pain_Quality_Descriptors_Neuropathic_Adult_Tingly,Did your pain feel tingly?,DCW_860704.doc,encoded values,,,,,,,PhenX,PX860704020000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860704_Pain_Quality_Descriptors_Neuropathic_Adult_Stinging,Did your pain feel stinging?,DCW_860704.doc,encoded values,,,,,,,PhenX,PX860704030000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860704_Pain_Quality_Descriptors_Neuropathic_Adult_Electrical,Did your pain feel electrical?,DCW_860704.doc,encoded values,,,,,,,PhenX,PX860704040000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860704_Pain_Quality_Descriptors_Neuropathic_Adult_Numb,Did your pain feel numb?,DCW_860704.doc,encoded values,,,,,,,PhenX,PX860704050000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much

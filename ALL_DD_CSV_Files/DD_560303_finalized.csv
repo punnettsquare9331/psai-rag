@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES
+PX560303_Duration_Abstinence_Alcohol_Days,How long has it been since you last had a drink of any kind of alcohol? Days,DCW_560303.doc,integer,days,,,,,,PhenX,PX560303010100,,,,,
+PX560303_Duration_Abstinence_Alcohol_Weeks,How long has it been since you last had a drink of any kind of alcohol? Weeks,DCW_560303.doc,integer,weeks,,,,,,PhenX,PX560303010200,,,,,
+PX560303_Duration_Abstinence_Alcohol_Months,How long has it been since you last had a drink of any kind of alcohol? Months,DCW_560303.doc,integer,months,,,,,,PhenX,PX560303010300,,,,,
+PX560303_Duration_Abstinence_Alcohol_Years,How long has it been since you last had a drink of any kind of alcohol? Years,DCW_560303.doc,integer,years,,,,,,PhenX,PX560303010400,,,,,

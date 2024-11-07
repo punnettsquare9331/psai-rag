@@ -1,0 +1,11 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX90402_Chest_Computed_Tomography_Subject_Identity,Has the subject's identity been confirmed?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402010000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Subject_Remove_Metal_Devices,Has the subject removed all metallic devices from the chest area?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402020000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Subject_Informed_Compliance_Instructions,Has the subject been informed of the importance of compliance with the breathing instructions?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402030000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Subject_Rehearsal_Breath_Hold,Was at least one rehearsal of the end-inspiratory breath-hold performed?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402040000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Scan_Algorithms,Were scans reconstructed using the edge enhancing and smooth algorithms?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402050000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Scan_Contiguous_Expiratory_CT_Images,Were contiguous end-expiratory CT images obtained?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402060000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Supine_Inspiration_Preparation,Was the subject allowed to breathe and relax for at least 15 seconds while preparing to take a CT scan of the lungs?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402070000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Supine_Inspiration_Breath_Hold,Was the scan taken during one breath-hold at full-inspiration,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402080000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Supine_Expiration_Preparation,Was the subject allowed to breathe and relax for at least 15 seconds while preparing to take a CT scan of the lungs?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402090000,,,,,Yes,No
+PX90402_Chest_Computed_Tomography_Supine_Expiration_Breath_Hold,Was the scan taken during one breath-hold at expiration as quickly as possible?,DCW_090402.doc,enumerated,,,,,,,PhenX,PX090402100000,,,,,Yes,No

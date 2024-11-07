@@ -1,0 +1,11 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Testicles_Undescended,Were you born with one or both of your testicles undescended (not completely down in the scrotum)?,DCW_100901.doc,encoded values,,,,,,,PhenX,PX100901010000,,,,,1 = Yes,2 = Don't know (go to 5),,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Testicles_Undescended_Specify,"If yes, which testicle was this?",DCW_100901.doc,encoded values,,,,,,,PhenX,PX100901020000,,,,, a = Right,b = Left,c = Both,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Testicle_Scrotum,Did the testicle go down to the scrotum by itself?,DCW_100901.doc,encoded values,,,,,,,PhenX,PX100901030000,,,,,0 = No,1 = Yes,2 = Don’t know,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Treatment,Did you receive treatment?,DCW_100901.doc,encoded values,,,,,,,PhenX,PX100901040000,,,,,0 = No,1 = Yes,2 = Don’t know,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Treatment_Type,What treatment?,DCW_100901.doc,enumerated,,,,,,,PhenX,PX100901050000,,,,,Surgery,Hormones,Other (specify),Don't know
+PX100901_Male_Reproductive_Tract_Birth_Defects_Medical_Diagnosis_Penis_Scotum_Urinary_Tract_Testicles,"Has your doctor or another health care provider ever told you that you had other diseases of the penis, testicles, urinary tract or scrotum (specify)?",DCW_100901.doc,string,,,,,,,PhenX,PX100901060000,,,,,,,,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Medical_Diagnosis_Hypospadias,Has your doctor or another health care provider ever told you that you had hypospadias?,DCW_100901.doc,enumerated,,,,,,,PhenX,PX100901070000,,,,,No,Yes,,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Recent_Treatment,What was your most recent treatment or medication (if any)?,DCW_100901.doc,string,,,,,,,PhenX,PX100901080100,,,,,,,,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Recent_Treatment_Encoded,What was your most recent treatment or medication (if any)?,DCW_100901.doc,enumerated,,,,,,,PhenX,PX100901080200,,,,,Don't know,,,
+PX100901_Male_Reproductive_Tract_Birth_Defects_Recent_Treatment_Year,What was your most recent treatment or medication (if any)?,DCW_100901.doc,integer,year,,,,,,PhenX,PX100901080300,,,,,,,,

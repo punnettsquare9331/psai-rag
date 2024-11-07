@@ -1,0 +1,12 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX091602_Spirometry_Preschool_Child_Mouthpiece_Nose_Clip,Was the child allowed put the mouthpiece into his/her mouth and blow with the nose clip on the nose?,DCW_091602.doc,enumerated,,,,,,,PhenX,PX091602010000,,,,,Yes,No
+PX091602_Spirometry_Preschool_Child_Nose_Clip,Was a nose clip used?,DCW_091602.doc,enumerated,,,,,,,PhenX,PX091602020000,,,,,Yes,No
+PX091602_Spirometry_Preschool_Child_Demonstration,Was the child provided a demonstration and encouraged to inspire fully into the spirometer and blow fast?,DCW_091602.doc,enumerated,,,,,,,PhenX,PX091602030000,,,,,Yes,No
+PX091602_Spirometry_Preschool_Child_Position,Which position is the child in during this test?,DCW_091602.doc,enumerated,,,,,,,PhenX,PX091602040000,,,,,Standing up,Sitting in a chair
+PX091602_Spirometry_Preschool_Child_Manuever_Successful,Was the manuever successful? The child should have at least two to three successful and reproducible manuevers,DCW_091602.doc,enumerated,,,,,,,PhenX,PX091602050000,,,,,Yes,No
+PX091602_Spirometry_Preschool_Child_Forced_Vital_Capacity,What is the Forced Vital Capacity (FVC)?,DCW_091602.doc,numeric,,,,,,,PhenX,PX091602060000,,,,,,
+PX091602_Spirometry_Preschool_Child_Forced_Expiratory_Volume_5,What is the Forced Expiratory Volume in .5 seconds (FEV.5)?,DCW_091602.doc,numeric,,,,,,,PhenX,PX091602070000,,,,,,
+PX091602_Spirometry_Preschool_Child_Forced_Expiratory_Volume_75,What is the Forced Expiratory Volume in .75 seconds (FEV.75)?,DCW_091602.doc,numeric,,,,,,,PhenX,PX091602080000,,,,,,
+PX091602_Spirometry_Preschool_Child_Forced_Expiratory_Volume_1,What is the Forced Expiratory Volume in 1 second (FEV1)?,DCW_091602.doc,numeric,,,,,,,PhenX,PX091602090000,,,,,,
+PX091602_Spirometry_Preschool_Child_Repeatability_Parameters,What is the repeatability of parameters above?,DCW_091602.doc,string,,,,,,,PhenX,PX091602100000,,,,,,
+PX091602_Spirometry_Preschool_Child_Satisfactory_Maneuvers_Number,What is the number of satisfactory attempts (maneuvers)?,DCW_091602.doc,numeric,,,,,,,PhenX,PX091602110000,,,,,,

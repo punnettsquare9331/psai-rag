@@ -1,0 +1,32 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX890401_Transfusion_Indications_Date,Visit Date:                            ______________________________,DCW_890401.doc,date,,,,,,,PhenX,PX890401010000,,,,,,
+PX890401_Transfusion_Indications_Correction,Correction:,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401020000,,,,,Yes,No
+PX890401_Transfusion_Indications_Date_Transfusion,Date of transfusion          _____________________________,DCW_890401.doc,date,,,,,,,PhenX,PX890401030000,,,,,,
+PX890401_Transfusion_Indications_Reason,Reason for transfusion,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401040000,,,,,Scheduled,Non-Scheduled
+PX890401_Transfusion_Indications_Acs,Acute chest syndrome,DCW_890401.doc,enumerated,,,,,"ASK IF ""Reason for transfusion"" = ""Non-Scheduled""",,PhenX,PX890401050000,,,,,Yes,No
+PX890401_Transfusion_Indications_Pain,Painful episode,DCW_890401.doc,enumerated,,,,,"ASK IF ""Reason for transfusion"" = ""Non-Scheduled""",,PhenX,PX890401050100,,,,,Yes,No
+PX890401_Transfusion_Indications_Mof,Multi-organ failure,DCW_890401.doc,enumerated,,,,,"ASK IF ""Reason for transfusion"" = ""Non-Scheduled""",,PhenX,PX890401050200,,,,,Yes,No
+PX890401_Transfusion_Indications_Neuro_Symptom,Neurological symptoms,DCW_890401.doc,enumerated,,,,,"ASK IF ""Reason for transfusion"" = ""Non-Scheduled""",,PhenX,PX890401050300,,,,,Yes,No
+PX890401_Transfusion_Indications_Surgery,Surgery,DCW_890401.doc,enumerated,,,,,"ASK IF ""Reason for transfusion"" = ""Non-Scheduled""",,PhenX,PX890401050400,,,,,Yes,No
+PX890401_Transfusion_Indications_Other,Other,DCW_890401.doc,enumerated,,,,,"ASK IF ""Reason for transfusion"" = ""Non-Scheduled""",,PhenX,PX890401050500,,,,,Yes,No
+PX890401_Transfusion_Indications_Other_Desc,Please indicate other:                       _______________________________,DCW_890401.doc,string,,,,,"ASK IF ""Other"" = ""Yes""",,PhenX,PX890401050600,,,,,,
+PX890401_Transfusion_Indications_Hemoglobin_S,Hemoglobin S,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401050700,,,,,Done,Not Done
+PX890401_Transfusion_Indications_Date_Hs,Date obtained         _______________________________,DCW_890401.doc,date,,,,,,,PhenX,PX890401050800,,,,,,
+PX890401_Transfusion_Indications_Results_Hs,Results                              _______________________________,DCW_890401.doc,decimal,%,0,100,,,,PhenX,PX890401060000,,,,,,
+PX890401_Transfusion_Indications_Ferritin,Ferritin,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401070000,,,,,Done,Not Done
+PX890401_Transfusion_Indications_Date_Ferritin,Date obtained         _______________________________,DCW_890401.doc,date,,,,,,,PhenX,PX890401080000,,,,,,
+PX890401_Transfusion_Indications_Results_Ferritin,Results                     ________________________________,DCW_890401.doc,decimal,ng/ml,0,100,,,,PhenX,PX890401090000,,,,,,
+PX890401_Transfusion_Indications_Hemoglobin,Hemoglobin level,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401100000,,,,,Done,Not Done
+PX890401_Transfusion_Indications_Date_Hemoglobin,Date obtained         _______________________________,DCW_890401.doc,date,,,,,,,PhenX,PX890401110000,,,,,,
+PX890401_Transfusion_Indications_Results_Hemoglobin,Results                           ________________________________,DCW_890401.doc,decimal,g/dl,0,100,,,,PhenX,PX890401120000,,,,,,
+PX890401_Transfusion_Indications_Pre_Medication_Tylenol,Pre-medications administered: Tylenol,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401130000,,,,,Yes,No
+PX890401_Transfusion_Indications_Pre_Medication_Benadryl,Pre-medications administered: Benadryl,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401140000,,,,,Yes,No
+PX890401_Transfusion_Indications_Pre_Medication_Claritin,Pre-medications administered: Claritin,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401150000,,,,,Yes,No
+PX890401_Transfusion_Indications_Pre_Medication_Other,Pre-medications administered: Other,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401160000,,,,,Yes,No
+PX890401_Transfusion_Indications_Pre_Medication_None,Pre-medications administered: None given,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401170000,,,,,Yes,No
+PX890401_Transfusion_Indications_Simple,Simple transfusion,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401180000,,,,,Done,Not Done
+PX890401_Transfusion_Indications_Amount_Simple,Amount transfused           _______________________________,DCW_890401.doc,decimal,cc,0,100,,,,PhenX,PX890401190000,,,,,,
+PX890401_Transfusion_Indications_Mme_Simple,Modified manual exchange,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401200000,,,,,Done,Not Done
+PX890401_Transfusion_Indications_Removed_Simple,Amount removed             _______________________________,DCW_890401.doc,decimal,cc,0,100,,,,PhenX,PX890401210000,,,,,,
+PX890401_Transfusion_Indications_Transfused_Simple,Amount transfused            _______________________________,DCW_890401.doc,decimal,cc,0,100,,,,PhenX,PX890401220000,,,,,,
+PX890401_Transfusion_Indications_Pheresis,Pheresis,DCW_890401.doc,enumerated,,,,,,,PhenX,PX890401230000,,,,,Done,Not Done

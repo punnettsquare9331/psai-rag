@@ -1,0 +1,3 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX850601_Recurrent_Priapism_Priapism_Episodes","Did one or more episodes of priapism occur? (to be answered for males only)","DCW_850601.doc","encoded values","","","","","","","PhenX","PX850601010000","","","","","1 = Yes","2 = No","3 = Unknown","","","","","","","","","","",""
+"PX850601_Recurrent_Priapism_Blood_Flow_Surgery","Was surgery performed to correct the blood flow?","DCW_850601.doc","encoded values","","","","","","","PhenX","PX850601020000","","","","","1 = Yes","2 = No","3 = Unknown","","","","","","","","","","",""

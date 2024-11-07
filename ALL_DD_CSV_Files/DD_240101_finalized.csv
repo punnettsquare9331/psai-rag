@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,
+PX240101_Adequacy_Prenatal_Care_Initiation,Month of initiation of care,DCW_240101.doc,enumerated,,,,,,,PhenX,PX240101010000,,,,,7-9 or no care,5-6,3-4,1-2,,,,,,,,
+PX240101_Adequacy_Prenatal_Care_Percentage,Percent of recommended visits received,DCW_240101.doc,encoded values,,,,,,,PhenX,PX240101020000,,,,,0-49 = inadequate,50-79 - intermediate,80-109 = inadeqate,110+ = adequate plus,,,,,,,,

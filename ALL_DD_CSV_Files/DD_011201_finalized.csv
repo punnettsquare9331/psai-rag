@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX011201_Years_Living_In_US,About how long have you been in the United States?,DCW_011201.doc,integer,,1,94,,,,PhenX,PX011201010000,,,,,1..94,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX011201_Years_Living_In_US_Coded,About how long have you been in the United States?,DCW_011201.doc,encoded values,,,,,,,PhenX,PX011201010100,,,,,"0 = less than 1 year,",95 = 95+ years,97 = Refused,99 = Don't know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

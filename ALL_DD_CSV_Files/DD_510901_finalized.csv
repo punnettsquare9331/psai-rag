@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,
+PX510901_SubstanceAbuse_Tobacco_Use_Disorder_PastYear,"Before last (Month one year ago), was there EVER a time when SOME of these experiences happened within the same 1-year period?",DCW_510901.doc,encoded values,,,,,,,PhenX,PX510901010000,,,,,1 = Yes,2 = No,,,,,,,,,,,,,
+PX510901_SubstanceAbuse_Tobacco_Use_Disorder_Age,About how old were you the FIRST time SOME of these experiences BEGAN to happen around the same time?,DCW_510901.doc,string,,,,,,,PhenX,PX510901020000,,,,,,,,,,,,,,,,,,,

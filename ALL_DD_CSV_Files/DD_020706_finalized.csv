@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX020706_Height_Standing_Height_Centimeters","Please enter the height gathered by the standimeter of the SP while the SP stands as tall as possible","DCW_20706.doc","decimal","cm","","","","","","PhenX","PX020706010000","","","","","",""

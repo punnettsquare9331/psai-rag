@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX520305_Drink_Couldnt_Think_Anything_Else,"At times when you couldn’t drink, did you ever want to drink so badly that you couldn’t think of anything else?",DCW_520305.doc,encoded values,,,,,,,PhenX,PX520305010000,,,,,1 = Yes,2 = No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

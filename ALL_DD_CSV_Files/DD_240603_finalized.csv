@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX240603_Current_Pregnancy_Status_Self_Report_Now","Are you pregnant now?","DCW_240603.doc","encoded values","","","","","","","PhenX","PX240603010000","","","","","1 = YES","2 = NO,7 = REFUSED,9 = DON'T KNOW"

@@ -1,0 +1,7 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX211302_Percent_Below_Poverty_Line,Percent Of Individuals Below The Poverty Line (derived from ACS Table C17002),DCW_211302.doc,decimal,,,,,,,PhenX,PX211302010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX211302_Percent_On_Public_Assistance,Percent of Households Receiving Public Assistance (derived from ACS Table B19057),DCW_211302.doc,decimal,,,,,,,PhenX,PX211302020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX211302_Percent_Female_Headed_Households,Percent Female-Headed Families (derived from ACS Table B11001),DCW_211302.doc,decimal,,,,,,,PhenX,PX211302030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX211302_Percent_Unemployed,Percent Unemployed (derived from ACS Table B23025),DCW_211302.doc,decimal,,,,,,,PhenX,PX211302040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX211302_Percent_Younger_Than_18,Percent Less Than Age 18 (derived from ACS Table B01001),DCW_211302.doc,decimal,,,,,,,PhenX,PX211302050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX211302_Percent_Black,Percent Black (derived from ACS Table B02001),DCW_211302.doc,decimal,,,,,,,PhenX,PX211302060000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

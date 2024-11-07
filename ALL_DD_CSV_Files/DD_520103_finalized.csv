@@ -1,0 +1,6 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX520103_Feel_Drug_Effect_Now,Do you FEEL a drug effect right now?,DCW_520103.doc,decimal,mm,,,,,,PhenX,PX520103010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX520103_Like_Effects_You_Are_Feeling,Do you LIKE any of the effects you are feeling right now?,DCW_520103.doc,decimal,mm,,,,,,PhenX,PX520103020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX520103_Dislike_Effects_You_Are_Feeling,Do you DISLIKE any of the effects you are feeling right now?,DCW_520103.doc,decimal,mm,,,,,,PhenX,PX520103030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX520103_Are_You_High,Are you HIGH right now?,DCW_520103.doc,decimal,mm,,,,,,PhenX,PX520103040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX520103_Like_More_Of_The_Drug,"Would you like MORE of the drug you took, right now?",DCW_520103.doc,decimal,mm,,,,,,PhenX,PX520103050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

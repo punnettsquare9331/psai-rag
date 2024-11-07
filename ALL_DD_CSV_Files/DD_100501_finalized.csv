@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX100501_Hysterectomy_Womb_Removed,Have you had a hysterectomy (womb removed)?,DCW_100501.doc,enumerated,,,,,Fill in all circles that apply.,,PhenX,PX100501010000,,,,,No,"Yes, one ovary only removed","Yes, both ovaries removed","Yes, and kept ovaries",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

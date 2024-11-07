@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,
+PX031302_Frequency_Substances,"Think specifically about the past 30 days, from [DATEFILL**] up to and including today. During the past 30 days, on how many days did you use…?",DCW_031302.doc,integer,,0,30,,,,PhenX,PX031302010100,,,,,0..30,,,,,,,,,,,,,,
+PX031302_Frequency_Substances_Encoded,"Think specifically about the past 30 days, from [DATEFILL**] up to and including today. During the past 30 days, on how many days did you use…?",DCW_031302.doc,enumerated,,,,,,,PhenX,PX031302010200,,,,,Don't know/refused,,,,,,,,,,,,,,

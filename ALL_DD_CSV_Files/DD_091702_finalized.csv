@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX091702_Biomarker_Exposure_Nicotine_Containing_Products_Cotinine_Concentration_Saliva","Concentrations of cotinine determined by capillary gas","DCW_091702.doc","decimal","ng/ml","","","","","","PhenX","PX091702010000","","","","","","","","","","","","","","","","","","","","","","","",""

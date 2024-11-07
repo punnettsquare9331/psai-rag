@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX100404_Difficulty_Getting_Pregnant_Retrospective_Assessment_Planned,Was this pregnancy planned?,DCW_100404.doc,encoded values,,,,,,,PhenX,PX100404010000,,,,,0 = No ,1 = Yes (go to Q2)
+PX100404_Difficulty_Getting_Pregnant_Retrospective_Assessment_Month,How many months did it take you to get pregnant?,DCW_100404.doc,string,months,,,,,,PhenX,PX100404020000,,,,,,
+PX100404_Difficulty_Getting_Pregnant_Retrospective_Assessment_Not_Pregnant,Has there ever been a time in your life during which you didn’t become pregnant despite 12 or more months of regular unprotected intercourse?,DCW_100404.doc,encoded values,,,,,,,PhenX,PX100404030000,,,,,0 = No ,1 = Yes

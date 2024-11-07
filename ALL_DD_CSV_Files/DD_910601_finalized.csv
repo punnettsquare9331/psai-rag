@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES
+PX910601_School_Work_Attendance_Child_Missed_School_Past_Year,"During the past 12 months, about how many days did this child miss school because of illness or injury?",DCW_910601.doc,integer,days,0,365,,,,PhenX,PX910601000000,,,,,

@@ -1,0 +1,3 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX330401_Nicotine_Metabolite_Concentration_Cotinine","Concentration of cotinine (COT)","DCW_330401.doc","decimal","ng/mL","","","","","","PhenX","PX330401010000","","","","","","","","","","",""
+"PX330401_Nicotine_Metabolite_Concentration_Hydroxycotinine","Concentration of trans-3'-hydroxycotinine (HC)","DCW_330401.doc","decimal","ng/mL","","","","","","PhenX","PX330401020000","","","","","","","","","","",""

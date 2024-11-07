@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX200201_Three_Or_More_Ear_Infections,{Have you/Has SP} ever had 3 or more ear infections?,DCW_200201.doc,encoded values,,,,,,,PhenX,PX200201010000,,,,,1 = Yes,2 = No,7 = Refused,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX200201_Tubes_In_Ears,{Have you/Has SP} ever had a tube placed in {your/his/her} ear to drain the fluid from {your/his/her} ear?,DCW_200201.doc,encoded values,,,,,,,PhenX,PX200201020000,,,,,1 = Yes,2 = No,7 = Refused,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

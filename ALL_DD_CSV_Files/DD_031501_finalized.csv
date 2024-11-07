@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,ASK IF Q1.6.1 = Yes,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX031501_Treatment_Alcohol_Usage,"Have you ever gone anywhere or seen anyone for a reason that was related in any way to your drinking-a physician, counselor, Alcoholics Anonymous, or any other community agency or professional?",DCW_031501.doc,encoded values,,,,,,,PhenX,PX031501000000,,,,,1 = Yes,2 = No

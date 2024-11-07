@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX810102_SCD_BodyTemperatureOral_Thermometer_Calibration,Was the thermometer calibrated and used under manufacturer's recommendations?,DCW_810102.doc,enumerated,,,,,,,PhenX,PX810102010000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX810102_SCD_BodyTemperatureOral_Thermometer_Reading,What is the reading from the thermometer? In Fahrenheit,DCW_810102.doc,decimal,Fahrenheit,,,,,,PhenX,PX810102020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

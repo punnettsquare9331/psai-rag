@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX860601_Sickle_Cell_Pain_Location_Body","Due to sickle cell pain, where on your body hurt yesterday?","DCW_860601.doc","string","","","","","","","PhenX","PX860601010000","","","","","","","","","","","","","","",""

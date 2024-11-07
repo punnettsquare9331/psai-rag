@@ -1,0 +1,33 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,VARIABLE_TERM,ORDER,VALUES,,,,,,,,
+PX040601_Angina_Diagnosis,Has a doctor ever told you that you had angina?,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601010000,,1 = Yes,0 = No,9 = Don’t Know,,,,,,
+PX040601_Angina_Chest_Discomfort_Since_LastExam,Any chest discomfort ever/since last exam or medical history update?,DCW_040601.doc,encoded values,, , ,,"If Yes, fill the following and continue.
+If No, end of protocol.
+(please provide narrative Comment in addition to checking the appropriate boxes)",,PhenX,PX040601020000,,0 = No,1 = Yes,2 = Maybe,9 = Don’t Know,,,,,
+PX040601_Angina_Chest_Discomfort_Exertion,Chest discomfort with exertion or excitement,DCW_040601.doc,encoded values,, , ,,,,PhenX,PX040601030000,,0 = No,1 = Yes,2 = Maybe,9 = Don’t Know,,,,,
+PX040601_Angina_Chest_Discomfort_Quite,Chest discomfort when quiet or resting,DCW_040601.doc,encoded values,, , ,,,,PhenX,PX040601040000,,0 = No,1 = Yes,2 = Maybe,9 = Don’t Know,,,,,
+PX040601_Angina_Chest_Discomfort_Onset_Month,Chest Discomfort Characteristics - Date of onset (mo),DCW_040601.doc,integer,,1,12,,,,PhenX,PX040601050100,,,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Onset_Month_Encoded,Chest Discomfort Characteristics - Date of onset (mo),DCW_040601.doc,integer,,,,,,,PhenX,PX040601050200,,99 [ ] Unknown,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Onset_Year,Chest Discomfort Characteristics - Date of onset (yr),DCW_040601.doc,integer,,1900,[PRESENT,,,,PhenX,PX040601060000,,"1900..[PRESENT YEAR]
+9999 [ ] Unknown
+",,,,,,,,
+PX040601_Angina_Chest_Discomfort_Usual_Duration_Minute,Chest Discomfort Characteristics - Usual duration (minutes),DCW_040601.doc,integer,,1,900,,,,PhenX,PX040601070100,,,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Usual_Duration_Minute_Encoded,Chest Discomfort Characteristics - Usual duration (minutes),DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601070200,,999 [ ] Unknown,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Longest_Duration_Minute,Chest Discomfort Characteristics - Longest duration (minutes),DCW_040601.doc,integer,,1,900,,,,PhenX,PX040601080100,,,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Longest_Duration_Minute_Encoded,Chest Discomfort Characteristics - Longest duration (minutes),DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601080200,,999 [ ] Unknown,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Location,Chest Discomfort Characteristics - Location,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601090000,,0 = No,1 = Central sternum and upper chest,2 = Left upper Quadrant,3 = Left lower ribcage,4 = Right chest,5 = Other,6 = Combination,9 = Unknown,
+PX040601_Angina_Chest_Discomfort_Radiation,Chest Discomfort Characteristics - Radiation,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601100000,,0 = No,1 = Left shoulder or left arm,2 = Neck,3 = Right shoulder or arm,4 = Back,5 = Abdomen,6 = Other,7 = Combination,9 = Unknown
+PX040601_Angina_Chest_Discomfort_Frequency_Past_Month ,Chest Discomfort Characteristics - Frequency (number in past month),DCW_040601.doc,integer,,,,,,,PhenX,PX040601110100,,,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Frequency_Past_Month_Encoded,Chest Discomfort Characteristics - Frequency (number in past month),DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601110200,,999 = Unknown,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Frequency_Past_Year,Chest Discomfort Characteristics - Frequency (number in past year),DCW_040601.doc,integer,,,,,,,PhenX,PX040601120100,,,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Frequency_Past_Year_Encoded,Chest Discomfort Characteristics - Frequency (number in past year),DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601120200,,999 = Unknown,,,,,,,,
+PX040601_Angina_Chest_Discomfort_Type,Chest Discomfort Characteristics - Type,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601130000,,"1 = Pressure, heavy, vise",2 = Sharp,3 = Dull,4 = Other,9 = Unknown,,,,
+PX040601_Angina_Chest_Discomfort_Relief_Nitrogrlycerine,Chest Discomfort Characteristics - Relief by nitroglycerine in <15 minutes,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601140000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Chest_Discomfort_Relief_Rest,Chest Discomfort Characteristics - Relief by rest in <15 minutes,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601150000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Chest_Discomfort_Relief_Spontaneously,Chest Discomfort Characteristics - Relief spontaneously in <15 minutes,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601160000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Chest_Discomfort_Relie _Other,Chest Discomfort Characteristics - Relief by other cause in <15 minutes,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601170000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Heart_Attack_Since_LastExam,"Since your last exam, have you been told by a doctor you had a heart attack?",DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601180000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Angia_Pectoris_Interim,CHD First Opinions - Angina pectoris in interim,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601190000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Angia_Pectoris_Revascularization,CHD First Opinions - Angina pectoris since revascularization procedure,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601200000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Coronary_Insufficiency_Interim,CHD First Opinions - Coronary insufficiency in interim,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601210000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Myocardial_Infarct_Interim,CHD First Opinions - Myocardial infarct in interim,DCW_040601.doc,encoded values,,,,,,,PhenX,PX040601220000,,0 = No,1 = Yes,8 = Not tried,9 = Unknown,,,,,
+PX040601_Angina_Comments,Comment,DCW_040601.doc,"String, encoded values",,,,,,,PhenX,PX040601230000,,   ,,,,,,,,

@@ -1,0 +1,6 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX890101_Thromboprophylaxis","Thromboprophylaxis (Prophylactic Anticoagulation)","DCW_890101.doc","enumerated","","","","","","","PhenX","PX890101010000","","","","","Thromboprophylaxis (Prophylactic Anticoagulation)","","","",""
+"PX890101_Thromboprophylaxis_Type","Type: ________________________________","DCW_890101.doc","string","","","","","","","PhenX","PX890101010100","","","","","","","","",""
+"PX890101_Thromboprophylaxis_Dose","Dose: ________________________________","DCW_890101.doc","string","","","","","","","PhenX","PX890101010200","","","","","","","","",""
+"PX890101_Thromboprophylaxis_Description","Description:
+____________________________________________________","DCW_890101.doc","string","","","","","","","PhenX","PX890101020000","","","","","","","","",""

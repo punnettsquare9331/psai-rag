@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,
+PX530402_Inhibitory_Control_,What is the calculated estimation of stop signal reaction time? Longer stop signal reaction time indicates greater motor impulsivity.,DCW_530402.doc,numeric,milliseconds,,,,,,PhenX,PX530402010000,,,,,,,,,,,,,,,,,,,

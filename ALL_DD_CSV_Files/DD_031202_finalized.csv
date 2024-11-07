@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,
+PX031202_First_Use_Age_Substances,How old were you the first time you used…?,DCW_031202.doc,integer,years,1,110,,,,PhenX,PX031202010100,,,,,1..110,,,,,,,,,,,,,,
+PX031202_First_Use_Age_Substances_Encoded,How old were you the first time you used…?,DCW_031202.doc,enumerated,,,,,,,PhenX,PX031202010200,,,,,Don't know/refused,,,,,,,,,,,,,,

@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX091102_Pulse_Oximetry_Rest_Oxygen_Saturation,What is the oxygen saturation of haemoglobin in the arterial blood (SpO2)?,DCW_091102.doc,numeric,percent,,,,,,PhenX,PX091102010000,,,,,,
+PX091102_Pulse_Oximetry_Rest_Pulse_Rate,"What is the pulse rate, averaged over 5 to 20 seconds?",DCW_091102.doc,numeric,beats per minute,,,,,,PhenX,PX091102020000,,,,,,
+PX091102_Pulse_Oximetry_Rest_Oxygen_Saturation_Healthy,Is the oxygen saturation at 95% or more?,DCW_091102.doc,enumerated,,,,,,,PhenX,PX091102030000,,,,,Yes,No

@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX101703_Sexual_Risk_Behavior_Male_Men_Oral_Num","In your lifetime, on how many men have you performed oral sex?","DCW_101703.doc","encoded values","","","","","ASK IF \"Have you ever performed oral sex on a man? Performing oral sex means your mouth on a man's penis or genitals.\" = '1'","","PhenX","PX101713130000","","","","","99 = Refused","77 = Don't Know,,,,,"

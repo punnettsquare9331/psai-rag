@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX100401_Try_Pregnancy_Currently,Are you and (PARTNER'S NAME) currently trying to get pregnant?,DCW_100401.doc,encoded values,,,,,,,PhenX,PX100401010000,,,,,1 = Yes,5 = No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX100401_Try_Pregnancy_Months,How long (how many months) have you and (PARTNER'S NAME) been trying to get pregnant?,DCW_100401.doc,integer,,,,,Enter Number of Months.,,PhenX,PX100401020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

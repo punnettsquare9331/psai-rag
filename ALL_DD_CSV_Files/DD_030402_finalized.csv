@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,
+PX030402_Alcohol_Maximum_Drinks_Hours24_Number,APPROXIMATELY what was the largest number of drinks that you drank in a single day?,DCW_030402.doc,encoded values,,,,,,,PhenX,PX030402010000,,,,,1 = 1-2 drinks,2 = 3-4 drinks,3 = 5-7 drinks,4 = 8-11 drinks,5 = 12-23 drinks,6 = 24+ drinks

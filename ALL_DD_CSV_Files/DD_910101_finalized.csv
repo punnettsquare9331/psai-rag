@@ -1,0 +1,8 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,
+PX910101_Acute_Bleeding_Date_Bleed_Event,Date of bleed event,DCW_910101.doc,date,,,,,,,PhenX,PX910101010000,,,,,,,,,,,
+PX910101_Acute_Bleeding_Location_Bleed_Event,Location of bleed event,DCW_910101.doc,string,,,,,,,PhenX,PX910101020000,,,,,,,,,,,
+PX910101_Acute_Bleeding_Symptoms_Did_Have,Which of the following symptoms did you have?,DCW_910101.doc,enumerated,,,,,,,PhenX,PX910101030000,,,,,Unusual feeling in the join,Warmth over the skin,Pain,Swelling,Stiffness,Loss of range of motion,None of the above
+PX910101_Acute_Bleeding_Treat_Bleed_RICE,Did you treat your bleed with RICE?,DCW_910101.doc,enumerated,,,,,,,PhenX,PX910101040000,,,,,Yes,No,Unknown,,,,
+PX910101_Acute_Bleeding_Treat_Bleed_Factor,Did you treat your bleed with factor? ,DCW_910101.doc,enumerated,,,,,,,PhenX,PX910101050000,,,,,Yes,No,,,,,
+PX910101_Acute_Bleeding_Take_More_Factor_Than_Prescribed,"If yes, did you take more factor than your normal prescribed dose?",DCW_910101.doc,enumerated,,,,,ASK IF Q5=YES,,PhenX,PX910101050100,,,,,Yes,No,Unknown,,,,
+PX910101_Acute_Bleeding_Describe_Response_Factor_Treatment,How would you describe your response* to factor treatment?,DCW_910101.doc,enumerated,,,,,,,PhenX,PX910101060000,,,,,Excellent,Good,Moderate,None,,,

@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX020601_Child_Hand_Drawing,Child hand used in drawing,DCW_020601.doc,enumerated,,,,,,,PhenX,PX020601010000,,,,,Right,Left,Either,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX020601_Child_Hand_Throwing,Child hand used in throwing a ball,DCW_020601.doc,enumerated,,,,,,,PhenX,PX020601020000,,,,,Right,Left,Either,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX020601_Child_Hand_Coloring,Child hand used in coloring,DCW_020601.doc,enumerated,,,,,,,PhenX,PX020601030000,,,,,Right,Left,Either,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX020601_Child_Hand_Holding_Toothbrush,Child hand used in holding a toothbrush,DCW_020601.doc,enumerated,,,,,,,PhenX,PX020601040000,,,,,Right,Left,Either,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

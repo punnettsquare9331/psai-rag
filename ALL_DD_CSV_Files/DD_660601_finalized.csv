@@ -1,0 +1,16 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX660601_CReactive_Protein_Specimen_Handling,"If testing is not performed within 24 hours of collection, are specimens stored at -20 degrees Celsius or cooler?",DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601010000,,,,,Yes,No
+PX660601_CReactive_Protein_Blood_Collection,Was the serum or plasma separated from the collected blood within 60 minutes of collection?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601020000,,,,,Yes,No
+PX660601_CReactive_Protein_Sample_Volume_Minimum,Is the sample volume at least 0.3 mL?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601030000,,,,,Yes,No
+PX660601_CReactive_Protein_Sample_Storage,Are the specimens stored in glass or plastic vials?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601040000,,,,,Yes,No
+PX660601_CReactive_Protein_Lipemic_Specimens,"Were lipemic specimens clarified by centrifugation for 10 minutes at about 15,000g prior to testing?",DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601050000,,,,,Yes,No
+PX660601_CReactive_Protein_CardioPhase_Rheumatology_Reagent,"Were the CardioPhase, Rheumatology, and Supplementary reagents stored between 4-8 degrees Celsius and never frozen?",DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601060000,,,,,Yes,No
+PX660601_CReactive_Protein_Diluent_Rx_Buffer,Were the Diluent and Rx buffer reagents stored at room temperature?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601070000,,,,,Yes,No
+PX660601_CReactive_Protein_Quality_Control,Were the quality control materials stored at -20 degrees Celsius or colder before being thawed and stored at 2-8 degrees Celsius and used within 30 days?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601080000,,,,,Yes,No
+PX660601_CReactive_Protein_Calibration_Standard_Dilutions,Were the calibration standard dilutions used within 4 hours of preparation?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601090000,,,,,Yes,No
+PX660601_CReactive_Protein_Quality_Control_Series,Did any of the three levels of control run for each test series not conform to specifications as defined in the quality control manual?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601100000,,,,,Yes,No
+PX660601_CReactive_Protein_Controls_Specimens_Mixing,Were the temperatures of the controls and patient specimens brought up to room temperature before use?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601110000,,,,,Yes,No
+PX660601_CReactive_Protein_Dilution_Wells,Are the dilution wells empty?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601120000,,,,,Yes,No
+PX660601_CReactive_Protein_Bench_Quality_Control,Were bench quality control specimens used at the beginning of each analystical run?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601130000,,,,,Yes,No
+PX660601_CReactive_Protein_Lower_Limit_Assay,Is the lowest reportable value at least 0.02 mg/dL?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601140000,,,,,Yes,No
+PX660601_CReactive_Protein_Specimen_Handling_Testing,Were specimens maintained at 20-25 degrees Celsius during tesing and stored at -70 degrees Celsius or lower after testing?,DCW_660601.doc,enumerated,,,,,,,PhenX,PX660601150000,,,,,Yes,No

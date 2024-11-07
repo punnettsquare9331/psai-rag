@@ -1,0 +1,8 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX890501_Transfusion_Reactions_Event_ID","Ad Hoc Event ID                         _________________________________","DCW_890501.doc","string","","","","","","","PhenX","PX890501010000","","","","","","","","",""
+"PX890501_Transfusion_Reactions_Visit_Date","Visit Date (yyyy/mm/dd):           _________________________________","DCW_890501.doc","date","","","","","","","PhenX","PX890501020000","","","","","","","","",""
+"PX890501_Transfusion_Reactions_Is_Correction","Correction","DCW_890501.doc","enumerated","","","","","","","PhenX","PX890501030000","","","","","Yes","No","","",""
+"PX890501_Transfusion_Reactions_Transfusion_Date","Date of transfusion (yyyy/mm/dd): _______________________________","DCW_890501.doc","date","","","","","","","PhenX","PX890501040000","","","","","","","","",""
+"PX890501_Transfusion_Reactions_Transfusion_Type","Type of transfusion:","DCW_890501.doc","enumerated","","","","","","","PhenX","PX890501050000","","","","","Simple","Modified exchange","Erythrocytapheresis","",""
+"PX890501_Transfusion_Reactions_Transfusion_Reaction","Type of reaction:","DCW_890501.doc","enumerated","","","","","","","PhenX","PX890501060000","","","","","Febrile non-hemolytic","Allergic or anaphylactoid","Hemolytic transfusion reaction (HTR)","",""
+"PX890501_Transfusion_Reactions_Complications","Associated complications:","DCW_890501.doc","enumerated","","","","","","","PhenX","PX890501070000","","","","","Hypertension and circulatory overload","Vaso-occlusive","Transient ischemic attack","",""

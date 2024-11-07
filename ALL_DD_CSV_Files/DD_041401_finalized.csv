@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041401_Have_Rheumatic_Fever,Has a doctor ever said you had rheumatic fever (inflammatory rheumatism)?,DCW_041401.doc,enumerated,,,,,,,PhenX,PX041401010000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041401_Rheumatic_Fever_Past_12Month,Have you had it in the past 12 months?,DCW_041401.doc,enumerated,,,,,,,PhenX,PX041401020000,,,,,Yes,No,Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041401_Rheumatic_Fever_Medication,Are you taking any pills or medicine for it?,DCW_041401.doc,enumerated,,,,,,,PhenX,PX041401030000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041401_Rheumatic_Fever_Medication_Name,What is it?,DCW_041401.doc,string,,,,,,,PhenX,PX041401040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

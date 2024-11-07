@@ -1,0 +1,8 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES
+PX010801_Current_Street_Number,I would like to verify your address.  Please give me your complete address.  Number,DCW_010801.doc,integer,,1,99999,,This data element can’t be accepted by dbGaP since it may not be in accordance with HIPAA rules,,PhenX,PX010801010000,,,,,
+PX010801_Current_Street_Direction,I would like to verify your address.  Please give me your complete address.  Street Direction,DCW_010801.doc,string,,,,,This data element can’t be accepted by dbGaP since it may not be in accordance with HIPAA rules,,PhenX,PX010801020000,,,,,
+PX010801_Current_Street_Name,I would like to verify your address.  Please give me your complete address.  Street Name,DCW_010801.doc,string,,,,,This data element can’t be accepted by dbGaP since it may not be in accordance with HIPAA rules,,PhenX,PX010801030000,,,,,
+PX010801_Current_Apartment_Number,I would like to verify your address.  Please give me your complete address.  Apartment Number,DCW_010801.doc,integer,,1,9999,,This data element can’t be accepted by dbGaP since it may not be in accordance with HIPAA rules,,PhenX,PX010801040000,,,,,
+PX010801_Current_City,I would like to verify your address.  Please give me your complete address.  City,DCW_010801.doc,string,,,,,,,PhenX,PX010801050000,,,,,
+PX010801_Current_State,I would like to verify your address.  Please give me your complete address.  State,DCW_010801.doc,string,,,,,,,PhenX,PX010801060000,,,,,
+PX010801_ZIP_Code,I would like to verify your address.  Please give me your complete address.  Zip Code,DCW_010801.doc,integer,,,,,,,PhenX,PX010801070000,,,,,

@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX750101_TV_AntiSmoking_Ad,"Have you recently seen an anti-smoking or anti-tobacco ad on TV that shows … [provide either brief verbal, text or visual (screenshot or video)]?",DCW_750101.doc,enumerated,,,,,,,PhenX,PX750101010000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX750101_TV_AntiSmoking_Ad_Content,What happens in this advertisement?,DCW_750101.doc,string,,,,,skip logic,If Q1=Yes,PhenX,PX750101020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

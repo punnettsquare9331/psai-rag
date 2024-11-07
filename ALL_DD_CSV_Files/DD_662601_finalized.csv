@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES
+PX662601_Task_Functional_Magnetic_Resonance_Imaging_Machine_Model, task functional magnetic resonance imaging (fMRI) machine Model,DCW_662601.doc,string,,,,,,,PhenX,PX662601010000,,,,,
+PX662601_Task_Functional_Magnetic_Resonance_Imaging_Image_ID, task functional magnetic resonance imaging (fMRI) Image ID,DCW_662601.doc,string,,,,,,,PhenX,PX662601020000,,,,,

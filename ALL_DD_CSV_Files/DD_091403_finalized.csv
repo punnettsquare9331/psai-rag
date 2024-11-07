@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX091403_Respiratory_Cycles,Number of respiratory cycles in one minute,DCW_091403.doc,integer,,,,,,,PhenX,PX091403010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX091403_Respiratory_Depth_Comments,Respiratory Depth Comments,DCW_091403.doc,string,,,,,,,PhenX,PX091403020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX091403_Breathing_Pattern_Comments,Breathing pattern comments,DCW_091403.doc,string,,,,,,,PhenX,PX091403030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX091403_Breathing_Depth_Comments,Breathing depth comments,DCW_091403.doc,string,,,,,,,PhenX,PX091403040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

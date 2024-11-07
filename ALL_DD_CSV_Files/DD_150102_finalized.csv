@@ -1,0 +1,8 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150102_Sex,Participant's sex,DCW_150102.doc,enumerated,,,,,,,PhenX,PX150102010000,,,,,male,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150102_Age,Participant's age,DCW_150102.doc,integer,year,,,,,,PhenX,PX150102020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150102_Treadmill_Speed,Treadmill speed during warm up,DCW_150102.doc,integer,miles per hour,,,,,,PhenX,PX150102030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150102_Heart_Rate_During_Warmup,Participant's heart rate during the last 10 minutes of the walk as shown on heart rate monitor,DCW_150102.doc,integer,,,,,,,PhenX,PX150102040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150102_Heart_Rate_During_Test,Participant's heart rate during the last 10 minutes of the walk as shown on heart rate monitor,DCW_150102.doc,integer,,,,,,,PhenX,PX150102050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150102_Time_To_Complete_Walk_Minutes,Time to complete entire 1 mile walk,DCW_150102.doc,integer,minute,,,,,,PhenX,PX150102060100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150102_Time_To_Complete_Walk_Seconds,Time to complete entire 1 mile walk,DCW_150102.doc,integer,second,,,,,,PhenX,PX150102060200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

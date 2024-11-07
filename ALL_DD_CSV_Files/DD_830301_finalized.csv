@@ -1,0 +1,7 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830301_SCD_Hemoglobin_BloodDraw,Was the blood drawn into an appropriate EDTA tube?,DCW_830301.doc,enumerated,,,,,,,PhenX,PX830301010000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830301_SCD_Hemoglobin_Assay_Equipment_Manufacturer,Who is the manufacturer of the equipment used?,DCW_830301.doc,string,,,,,,,PhenX,PX830301020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830301_SCD_Hemoglobin_Assay_Equipment_Make,What is the make of the equipment used?,DCW_830301.doc,string,,,,,,,PhenX,PX830301030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830301_SCD_Hemoglobin_Assay_Equipment_Coefficients,What are the coefficients of variation for the assay?,DCW_830301.doc,decimal,,,,,,,PhenX,PX830301040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830301_SCD_Hemoglobin_Assay_Equipment_Repeatability,Describe the repeatability of the assay:,DCW_830301.doc,string,,,,,,,PhenX,PX830301050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830301_SCD_Hemoglobin_Assay_Results,"Were the assay results recorded for the following hemoglobins? A, F, S, C, E/A2, D-Punjab, G-Philadelphia, O-Arab",DCW_830301.doc,enumerated,,,,,,,PhenX,PX830301060000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

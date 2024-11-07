@@ -1,0 +1,6 @@
+﻿VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,
+PX860703_Pain_Quality_Descriptors_Nociceptive_Adult_Sore,Did your pain feel sore?,DCW_860703.doc,encoded values,,,,,,,PhenX,PX860703010000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860703_Pain_Quality_Descriptors_Nociceptive_Adult_Tender,Did your pain feel tender?,DCW_860703.doc,encoded values,,,,,,,PhenX,PX860703020000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860703_Pain_Quality_Descriptors_Nociceptive_Adult_Achy,Did your pain feel achy?,DCW_860703.doc,encoded values,,,,,,,PhenX,PX860703030000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860703_Pain_Quality_Descriptors_Nociceptive_Adult_Deep,Did your pain feel deep?,DCW_860703.doc,encoded values,,,,,,,PhenX,PX860703040000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much
+PX860703_Pain_Quality_Descriptors_Nociceptive_Adult_Steady,Did your pain feel steady?,DCW_860703.doc,encoded values,,,,,,,PhenX,PX860703050000,,,,,1 = Not at all,2 = A little bit,3 = Somewhat,4 = Quite a bit,5 = Very much

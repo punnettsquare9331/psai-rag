@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX040501_Ever_Have_Heart_Valve_Problem,Has a doctor ever told you that you had rheumatic heart disease or heart valve problems?,DCW_040501.doc,encoded values,,,,,,,PhenX,PX040501010000,,,,,1 = Yes,0 = No,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX040501_ECG_Examination_Date,Date of Electrocardiogram (ECG) Examination (mm/dd/yyyy).,DCW_040501.doc,Date,,,,,,,PhenX,PX040501020100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX040501_ECG_Image_ID,Electrocardiogram Trace/Image ID.,DCW_040501.doc,string,,,,,,,PhenX,PX040501020200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

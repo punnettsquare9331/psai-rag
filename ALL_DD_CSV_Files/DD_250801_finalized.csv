@@ -1,0 +1,55 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,
+PX250801_Mother_History_Alzheimers,"Has a doctor ever told your mother that she has Alzheimer’s Disease?
+
+DEF: (Medical doctors include specialists such as Neurologists,
+
+Dermatologists, Psychiatrists, Ophthalmologists, Osteopaths,
+
+Cardiologists, as well as family doctors, internists and physicians’
+
+assistants. Also include diagnoses made by Nurses and Nurse Practitioners.)
+",DCW_250801.doc,encoded values,,,,,,,PhenX,PX250801010000,,,,,"1 = YES, GO TO Question 3",5 = NO,"7 = [IF VOLUNTEERED] NOT ALZHEIMER’S DISEASE, GO TO Question 3",8 = Don't know,9 = Refused
+PX250801_Mother_History_Dementia,"Has a doctor ever told your mother that she has dementia, senility or any other serious memory impairment?
+
+DEF: (Medical doctors include specialists such as Neurologists, Dermatologists, Psychiatrists, Ophthalmologists, Osteopaths, Cardiologists, as well as family doctors, internists and physicians’ assistants. Also include diagnoses made by Nurses and Nurse Practitioners.)
+",DCW_250801.doc,encoded values,,,,,ASK IF Q1 != 1 & Q1 !=7,,PhenX,PX250801020000,,,,,1 = YES,5 = NO,8 = Don't know,9 = Refused,
+PX250801_Mother_Age_Died_Specific,"About how old was she when she (died/passed away)?
+[IINTERVIEWER: PROBE IF NECESSARY]
+AGE ________ (go to question 3b)
+",DCW_250801.doc,integer,,,,,,,PhenX,PX250801030101,,,,,,,,,
+PX250801_Mother_Age_Died,"About how old was she when she (died/passed away)?
+[IINTERVIEWER: PROBE IF NECESSARY]
+",DCW_250801.doc,enumerated,,,,,,,PhenX,PX250801030102,,,,,Don't know,Refused,,,
+PX250801_Mother_Month_Died_Specific,"In what month and year did she (die/pass away)?
+MONTH __________
+",DCW_250801.doc,integer,,,,,ASK IF Q3.1.1 != DK,,PhenX,PX250801030201,,,,,,,,,
+PX250801_Mother_Month_Died,"In what month and year did she (die/pass away)?
+",DCW_250801.doc,enumerated,,,,,ASK IF Q3.1.1 != DK,,PhenX,PX250801030202,,,,,Don't know,Refused,,,
+PX250801_Mother_Year_Died_Specific,"In what month and year did she (die/pass away)?
+YEAR __________
+",DCW_250801.doc,integer,,,,,ASK IF Q3.1.1 != DK,,PhenX,PX250801030203,,,,,,,,,
+PX250801_Mother_Year_Died,"In what month and year did she (die/pass away)?
+",DCW_250801.doc,enumerated,,,,,ASK IF Q3.1.1 != DK,,PhenX,PX250801030204,,,,,Don't know,Refused,,,
+PX250801_Father_History_Alzheimers,"Has a doctor ever told your father that he has Alzheimer’s Disease?
+
+DEF: (Medical doctors include specialists such as Neurologists, Dermatologists, Psychiatrists, Ophthalmologists, Osteopaths, Cardiologists, as well as family doctors, internists and physicians’ assistants. Also include diagnoses made by Nurses and Nurse Practitioners.)
+",DCW_250801.doc,encoded values,,,,,,,PhenX,PX250801040000,,,,,"1 = YES, GO TO Question 6",5 = NO,"7 = [IF VOLUNTEERED] NOT ALZHEIMER’S DISEASE, GO TO Question 6",8 = Don't know,9 = Refused
+PX250801_Father_History_Dementia,"Has a doctor ever told your father that he has dementia, senility or any other serious memory impairment?
+
+DEF: (Medical doctors include specialists such as Neurologists, Dermatologists, Psychiatrists, Ophthalmologists, Osteopaths, Cardiologists, as well as family doctors, internists and physicians’ assistants. Also include diagnoses made by Nurses and Nurse Practitioners.)
+",DCW_250801.doc,encoded values,,,,,ASK IF Q4 != 1 & Q4 != 7,,PhenX,PX250801050000,,,,,1 = YES,5 = NO,8 = Don't know,9 = Refused,
+PX250801_Father_Age_Died_Specific,"About how old was he when he (died/passed away)?
+[IWER: PROBE IF NECESSARY]
+AGE _____
+",DCW_250801.doc,integer,,,,,,,PhenX,PX250801060101,,,,,,,,,
+PX250801_Father_Age_Died,"About how old was he when he (died/passed away)?
+[IWER: PROBE IF NECESSARY]
+",DCW_250801.doc,enumerated,,,,,,,PhenX,PX250801060102,,,,,Don't know,Refused,,,
+PX250801_Father_Month_Died_Specific,"In what month and year did he (die/pass away)? MONTH________
+",DCW_250801.doc,integer,,,,,,,PhenX,PX250801060201,,,,,,,,,
+PX250801_Father_Month_Died,"In what month and year did he (die/pass away)? 
+",DCW_250801.doc,enumerated,,,,,,,PhenX,PX250801060202,,,,,Don't know,Refused,,,
+PX250801_Father_Year_Died_Specific,"In what month and year did he (die/pass away)? YEAR______
+",DCW_250801.doc,integer,,,,,,,PhenX,PX250801060203,,,,,,,,,
+PX250801_Father_Year_Died,"In what month and year did he (die/pass away)?
+",DCW_250801.doc,enumerated,,,,,,,PhenX,PX250801060204,,,,,Don't know,Refused,,,

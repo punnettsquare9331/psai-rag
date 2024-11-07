@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX860402_Pain_Intensity_Child_Rate","In the past 7 days, how would you rate your pain on average?","DCW_860402.doc","enumerated","","","","","","","PhenX","PX860402010000","","","","","0","1","2","3","4","5","6","7","8","9","10"

@@ -1,0 +1,8 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,
+PX530602_Memory_Task_Correct_Detections,A target stimulus is a 5-digit number that is identical to the preceding number. Responses to target stimuli are recorded as correct detections. How many correct detections were made by the participant?,DCW_530602.doc,numeric,,,,,,,PhenX,PX530602000000,,,,,,,,,,,,,,,,,,,
+PX530602_Memory_Task_Filler_Errors,A filler stimulus is a random 5-digit number that appears whenever a target or catch trial is not scheduled to appear. Responses to filler stimuli are recorded as filler errors. How many filler errors were made by the participant?,DCW_530602.doc,numeric,,,,,,,PhenX,PX530602010000,,,,,,,,,,,,,,,,,,,
+PX530602_Memory_Task_Correct_Detections_Rate,What is the rate of correct detections?,DCW_530602.doc,numeric,,,,,,,PhenX,PX530602020000,,,,,,,,,,,,,,,,,,,
+PX530602_Memory_Task_Commission_Error_Rate,What is the rate of commision error responses to catch stimuli?,DCW_530602.doc,numeric,,,,,,,PhenX,PX530602030000,,,,,,,,,,,,,,,,,,,
+PX530602_Memory_Task_Filler_Errors_Rate,What is the rate of filler errors?,DCW_530602.doc,numeric,,,,,,,PhenX,PX530602040000,,,,,,,,,,,,,,,,,,,
+PX530602_Memory_Task_Stimulus_Discriminability,What are the parametric and non-parametric indices or stimulus discriminability?,DCW_530602.doc,string,,,,,,,PhenX,PX530602050000,,,,,,,,,,,,,,,,,,,
+PX530602_Memory_Task_Response_Bias,What are the parametric and non-parametric indices of response bias (i.e. liberal or conservative resppon,DCW_530602.doc,string,,,,,,,PhenX,PX530602060000,,,,,,,,,,,,,,,,,,,

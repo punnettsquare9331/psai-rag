@@ -1,0 +1,5 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX010102_Age_Birthdate","What is your birthdate?","DCW_10102.doc","date","","","","","","","PhenX","PX010102010000","","","","","",""
+"PX010102_Age_Birthdate_Dont_Know","What is your birthdate? Don't Know or Refused","DCW_10102.doc","encoded values","","","","","","","PhenX","PX010102010100","","","","","9 = DK","7 = RF"
+"PX010102_Age_Old","How old are you?","DCW_10102.doc","integer","years","0","","","ASK IF \"What is your birthdate? Don't Know or Refused\" = '9' OR \"What is your birthdate? Don't Know or Refused\" = '7'","","PhenX","PX010102020000","","","","","",""
+"PX010102_Age_Old_Dont_Know","How old are you?","DCW_10102.doc","encoded values","","","","","ASK IF \"What is your birthdate? Don't Know or Refused\" = '9' OR \"What is your birthdate? Don't Know or Refused\" = '7'","","PhenX","PX010102020100","","","","","999 = DK","777 = RF"

@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX530102_Dimension_Preswitch_Phase,Dimension used for pre-switch phase of sorting.,DCW_530102.doc,enumerated,,,,,,,PhenX,PX530102010000,,,,,color,shape,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX530102_Number_Preswitch_Cards_Correctly_Sorted,Number of pre-switch cards correctly sorted: __________,DCW_530102.doc,integer,,,,,,,PhenX,PX530102020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX530102_Number_Postswitch_Cards_Correctly_Sorted,Number of post-switch cards correctly sorted: __________,DCW_530102.doc,integer,,,,,,,PhenX,PX530102030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

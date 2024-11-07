@@ -1,0 +1,6 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151401_Age,Participant's age,DCW_151401.doc,integer,year,,,,,,PhenX,PX151401010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151401_Height,Participant's height,DCW_151401.doc,integer,centimeter,,,,,,PhenX,PX151401020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151401_Weight,Participant's weight,DCW_151401.doc,integer,kilogram,,,,,,PhenX,PX151401030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151401_BMI,Participant's body mass index (BMI),DCW_151401.doc,integer,(weight in kilogram)/(height in meter)2,,,,,,PhenX,PX151401040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151401_Resting_Heart_Rate,Participant's resting heart rate measured from wrist after 5 minutes of rest in supine position,DCW_151401.doc,integer,beats per minute,,,,,,PhenX,PX151401050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

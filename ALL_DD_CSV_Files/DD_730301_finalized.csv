@@ -1,0 +1,7 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX730301_PH_Free_Nicotine,pH measurement for free nicotine,DCW_730301.doc,decimal,,,,,,,PhenX,PX730301010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX730301_PH_Cigarette_Filler_Tobacco,pH measurement for cigarette filler tobacco,DCW_730301.doc,decimal,,,,,,,PhenX,PX730301020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX730301_PH_Smokeless_Tobacco,pH measurement for smokeless tobacco,DCW_730301.doc,decimal,,,,,,,PhenX,PX730301030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX730301_NicotineContent_Free_Nicotine,nicotine content for free nicotine,DCW_730301.doc,decimal,mg/g,,,,,,PhenX,PX730301040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX730301_NicotineContent_Cigarette_Filler_Tobacco,nicotine content for cigarette filler tobacco,DCW_730301.doc,decimal,mg/g,,,,,,PhenX,PX730301050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX730301_NicotineContent_Smokeless_Tobacco,nicotine content for smokeless tobacco,DCW_730301.doc,decimal,mg/g,,,,,,PhenX,PX730301060000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

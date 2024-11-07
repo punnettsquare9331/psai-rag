@@ -1,0 +1,13 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX090202_Arterial_Blood_Gas_Draw_Conditions,What blood drawn anaerobically from a peripheral artery via a single percutaneous needle puncture or from an indwelling arterial cannula or catheter for multiple samples?,DCW_090202.doc,enumerated,,,,,,,PhenX,PX090202010000,,,,,Yes,No
+PX090202_Arterial_Blood_Gas_Date,What is today's date?,DCW_090202.doc,date,,,,,,,PhenX,PX090202020000,,,,,,
+PX090202_Arterial_Blood_Gas_Time_Sample_Collection,What is the time of sample collection?,DCW_090202.doc,time,,,,,,,PhenX,PX090202030000,,,,,,
+PX090202_Arterial_Blood_Gas_Patient_Body_Temperature,What is the patient's body temperature?,DCW_090202.doc,numeric,degrees,,,,,,PhenX,PX090202040000,,,,,,
+PX090202_Arterial_Blood_Gas_Patient_Body_Position,What is the patient's position when blood was drawn?,DCW_090202.doc,string,,,,,,,PhenX,PX090202050000,,,,,,
+PX090202_Arterial_Blood_Gas_Patient_Activity_Level,Please describe the patient's activity level.,DCW_090202.doc,string,,,,,,,PhenX,PX090202060000,,,,,,
+PX090202_Arterial_Blood_Gas_Patient_Respiratory_Rate,What is the patient's respiratory rate?,DCW_090202.doc,numeric,breaths per min,,,,,,PhenX,PX090202070000,,,,,,
+PX090202_Arterial_Blood_Gas_Patient_Sample_Site,What is the sample site?,DCW_090202.doc,string,,,,,,,PhenX,PX090202080000,,,,,,
+PX090202_Arterial_Blood_Gas_Patient_Results_Allen_Test,What are the results of the Allen test?,DCW_090202.doc,string,,,,,,,PhenX,PX090202090000,,,,,,
+PX090202_Arterial_Blood_Gas_Inspired_Oxygen_Concentration,What is the inspired oxygen concentration?,DCW_090202.doc,numeric,,,,,,,PhenX,PX090202100000,,,,,,
+PX090202_Arterial_Blood_Gas_Supplemental_Oxygen,What is the supplemental oxygen flow?,DCW_090202.doc,string,,,,,,,PhenX,PX090202110000,,,,,,
+PX090202_Arterial_Blood_Gas_Mode_Supported_Ventilation,What is the mode of supported ventilation?,DCW_090202.doc,string,,,,,,,PhenX,PX090202120000,,,,,,

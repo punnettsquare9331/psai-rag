@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080801_Natural_Teeth_Number_Adult,How many natural teeth do you have?,DCW_080801.doc,encoded values,,,,,For Adults.,,PhenX,PX080801010000,,,,,1 = None,2 = 1-10,3 = 11-16,4 = 17-24,5 = 25-32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080801_Natural_Teeth_Number_Child,How many natural teeth does your child have?,DCW_080801.doc,encoded values,,,,,For Children.,,PhenX,PX080801020000,,,,,1 = None,2 = 1-10,3 = 11-16,4 = 17-24,5 = 25-32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080801_Natural_Teeth_Number_Infant,How many teeth does your baby have now? (Write in 0 if none.),DCW_080801.doc,integer,,0,20,,For Infant.,,PhenX,PX080801030000,,,,,0..20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

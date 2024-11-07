@@ -1,0 +1,2 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,
+PX030202_Alcohol_First_Use_Age,Think about the first time you had a drink of an alcoholic beverage. How old were you the first time you had a drink of an alcoholic beverage? Please do not include any time when you only had a sip or two from a drink.,DCW_030202.doc,integer,,,,,,,PhenX,PX030202010000,,,,,,,,,,,,,,,,,,,

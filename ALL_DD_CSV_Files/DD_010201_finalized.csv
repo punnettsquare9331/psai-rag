@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010201_Birthplace,Where were you born?,DCW_010201.doc,enumerated,,,,,,,PhenX,PX010201010000,,,,,In the United States,Outside the United States,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010201_Birthplace_Location,"Where were you born?  In the United States - Print name of state.  Outside the United States - Print U.S. Territory (e.g., Puerto Rico, U.S. Virgin Islands, Guam) or name of foreign country etc.",DCW_010201.doc,string,,,,,,,PhenX,PX010201020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

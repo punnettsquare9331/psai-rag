@@ -1,0 +1,8 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151001_Day1_Number_Steps,Number of steps the participant takes on day 1,DCW_151001.doc,integer,steps,,,,,,PhenX,PX151001010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151001_Day2_Number_Steps,Number of steps the participant takes on day 2,DCW_151001.doc,integer,steps,,,,,,PhenX,PX151001020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151001_Day3_Number_Steps,Number of steps the participant takes on day 3,DCW_151001.doc,integer,steps,,,,,,PhenX,PX151001030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151001_Day4_Number_Steps,Number of steps the participant takes on day 4,DCW_151001.doc,integer,steps,,,,,,PhenX,PX151001040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151001_Day5_Number_Steps,Number of steps the participant takes on day 5,DCW_151001.doc,integer,steps,,,,,,PhenX,PX151001050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151001_Day6_Number_Steps,Number of steps the participant takes on day 6,DCW_151001.doc,integer,steps,,,,,,PhenX,PX151001060000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX151001_Day7_Number_Steps,Number of steps the participant takes on day 7,DCW_151001.doc,integer,steps,,,,,,PhenX,PX151001070000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

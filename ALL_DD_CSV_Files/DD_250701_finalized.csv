@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,
+PX250701_Cystatin_C_Assay_Kidney_Function_Hemophilia,Do you have hemophilia?,DCW_250701.doc,encoded values,,,,,,,PhenX,PX250701010000,,,,,1 = Yes,2 = No,7 = Refused,9 = Don’t Know
+PX250701_Cystatin_C_Assay_Kidney_Function_Chemotherapy,Have you received cancer chemotherapy in the past four weeks or do you anticipate such therapy in the next four weeks?,DCW_250701.doc,encoded values,,,,,,,PhenX,PX250701020000,,,,,1 = Yes,2 = No,7 = Refused,9 = Don’t Know

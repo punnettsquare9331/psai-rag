@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX190501_Hepatic_Steatosis_CT_Scanner_Model,Supine Liver Fat or Hepatic Steatosis CT Scanner Model,DCW_190501.doc,string,,,,,,,PhenX,PX190501010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX190501_Hepatic_Steatosis_CT_Image_ID,Supine Liver Fat or Hepatic Steatosis CT Image ID,DCW_190501.doc,string,,,,,,,PhenX,PX190501020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX190501_Organ_Volumes_CT_Scanner_Model,Supine Organ Volumes CT Scanner Model,DCW_190501.doc,string,,,,,,,PhenX,PX190501030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX190501_Organ_Volumes_CT_Image_ID,Supine Organ Volumes CT Image ID,DCW_190501.doc,string,,,,,,,PhenX,PX190501040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

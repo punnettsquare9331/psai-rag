@@ -1,0 +1,6 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX251001_Frailty_Weight_Three_Years_Ago,What was your weight 3 years ago? __ __ __ lbs,DCW_251001.doc,integer,,,,,,,PhenX,PX251001010000,,,,,,
+PX251001_Frailty_Weight_Today,What is your weight today? __ __ __ lbs,DCW_251001.doc,integer,,,,,,,PhenX,PX251001020000,,,,,,
+PX251001_Frailty_Weight_Loss_Percentage,[Interviewer/computer: calculate weight loss percentage] Change in weight (Q1-Q2)/weight 3 years ago (Q1) ___ __ % loss,DCW_251001.doc,integer,,,,,,,PhenX,PX251001030000,,,,,,
+PX251001_Frailty_Ability_Chair_Stands,"[Interviewer: Ask respondent to sit in chair, then rise up without using arms, repeat 4 more times.] Was respondent able to do chair stands without assistance?",DCW_251001.doc,enumerated,,,,,,,PhenX,PX251001040000,,,,,Yes,No
+PX251001_Frailty_Energy_Level,Do you feel full of energy?,DCW_251001.doc,enumerated,,,,,,,PhenX,PX251001050000,,,,,Yes,No

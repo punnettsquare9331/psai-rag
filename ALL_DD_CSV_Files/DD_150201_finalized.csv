@@ -1,0 +1,7 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150201_Number_Half_Sit_Ups,The number of half sit-ups performed in one minute,DCW_150201.doc,integer,,,,,,,PhenX,PX150201010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150201_Gender,Participant's gender,DCW_150201.doc,enumerated,,,,,,,PhenX,PX150201020000,,,,,Male,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150201_Number_Of_Push_Ups,Number of push-ups completed,DCW_150201.doc,integer,,,,,,,PhenX,PX150201030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150201_Fingertips_First_Stretch,Location of fingertips during first stretch,DCW_150201.doc,integer,inch,,,,record to the closest inch,,PhenX,PX150201040000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150201_Fingertips_Second_Stretch,Location of fingertips during second stretch,DCW_150201.doc,integer,inch,,,,record to the closest inch,,PhenX,PX150201050000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX150201_Fingertips_Third_Stretch,Location of fingertips during third stretch,DCW_150201.doc,string,inch,,,,record to the closest inch,,PhenX,PX150201060000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

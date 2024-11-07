@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX860602_Sickle_Cell_Pain_Location_Body","Select all parts of your body where you have had pain in the past two weeks.","DCW_860602.doc","string","","","","","","","PhenX","PX860602010000","","","","","","","","","","","","","","",""

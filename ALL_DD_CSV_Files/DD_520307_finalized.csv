@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX520307_Self_Reported_Craving _General_Drink,"In the last 12 months, did you want a drink so badly that you couldnÍt think of anything else?",DCW_520307.doc,encoded values,,,,,,,PhenX,PX520307010100,,,,,1 = Yes,2 = No
+PX520307_Self_Reported_Craving _General_Tobacco ,"In the last 12 months, did you want to use tobacco or nicotine so badly that you couldnÍt think of anything else?",DCW_520307.doc,encoded values,,,,,,,PhenX,PX520307010200,,,,,1 = Yes,2 = No
+PX520307_Self_Reported_Craving _General_Medicine,"In the last 12 months, did you want a medicine or drug so badly that you couldnÍt think of anything else?",DCW_520307.doc,encoded values,,,,,,,PhenX,PX520307010300,,,,,1 = Yes,2 = No

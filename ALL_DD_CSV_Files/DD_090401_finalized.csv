@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX090401_Conditions_Affecting_Breathing,Conditions that might affect ability to comply with breathing instructions,DCW_090401.doc,string,,,,,,,PhenX,PX090401010000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX090401_Inspiratory_CT_Image_ID,Supine Inspiratory CT Image ID,DCW_090401.doc,string,,,,,,,PhenX,PX090401020000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX090401_Expiratory_CT_Image_ID,Supine Expiratory CT Image ID,DCW_090401.doc,string,,,,,,,PhenX,PX090401030000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

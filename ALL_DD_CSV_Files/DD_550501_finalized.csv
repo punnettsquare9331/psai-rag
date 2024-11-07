@@ -1,0 +1,167 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX550501_Treatment_Availability_Level_Care_Age_Admission","Calculated from date of birth and date of admission and categorized.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501010000","","","","","1 = 12–14 years","2 = 15–17 years","3 = 18–20 years","4 = 21–24 years","5 = 25–29 years","6 = 30–34 years","7 = 35–39 years","8 = 40–44 years","9 = 45–49 years","10 = 50–54 years","11 = 55–64 years","12 = 65 years and older","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Education","Specifies the highest school grade (number of school years) completed by the client.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501020000","","","","","1 =  8 years or less","2 = 9–11 years","3 = 12 years (or GED) ","4 = 13–15 years","5 = 16 years or more","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Employment_Status_Admission","Designates the client's employment status at the time of admission:
+• Full-time: Working 35 hours or more each week; including active duty members of the uniformed services.
+• Part-time: Working fewer than 35 hours each week.
+• Unemployed: Looking for work during the past 30 days or on layoff from a job.
+• Not in labor force: Not looking for work during the past 30 days or a student, homemaker, disabled, retired, or a resident
+of an institution. Clients in this category are further defined in the supplemental data set item 'detailed not in labor force'
+(DETNLF).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501030000","","","","","1 = Full-time","2 = Part-time","3 = Unemployed","4 = Not in labor force","(-9)) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Hispanic_Latino_Origin","Identifies client's specific Hispanic or Latino origin, if applicable.
+• Puerto Rican: Of Puerto Rican origin, regardless of race.
+• Mexican: Of Mexican origin, regardless of race.
+• Cuban: Of Cuban origin, regardless of race.
+• Other specific Hispanic or Latino: Of known Central or South American or any other Spanish cultural origin (including
+Spain), other than Puerto Rican, Mexican, or Cuban, regardless of race.
+• Not of Hispanic or Latino origin
+• Hispanic, specific origin not specified: Of Hispanic or Latino origin, but specific origin not known or not specified.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501040000","","","","","1 =  Puerto Rican","2 = Mexican","3 = Cuban or other specific Hispanic","4 = Not of Hispanic or Latino origin","5 = Hispanic or Latino, specific origin not specified","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Frequency_Use_Admission_Primary_Substance","Specifies the frequency of use of the primary substance (SUB1).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501050100","","","","","1 =  No use in the past month","2 = Some use","3 = Daily use","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Frequency_Use_Admission_Secondary_Substance","Specifies the frequency of use of the secondary substance (SUB2).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501050200","","","","","1 = No use in the past month","2 = Some use","3 = Daily use","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Frequency_Use_Admission_Tertiary_Substance","Specifies the frequency of use of the tertiary substance (SUB3).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501050300","","","","","1 =  No use in the past month","2 = Some use","3 = Daily use","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Age_First_Use_Primary_Substance","For alcohol use, this is the age of first intoxication. For drugs other than alcohol, this field identifies the age at which the
+client first used the substance identified as the primary substance (SUB1).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501060100","","","","","1 = 11 years and under","2 = 12–14 years","3 = 15–17 years","4 = 18–20 years","5 = 21–24 years","6 = 25–29 years","7 = 30 years and older","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Age_First_Use_Secondary_Substance","For alcohol use, this is the age of first intoxication. For drugs other than alcohol, this field identifies the age at which the
+client first used the substance identified as the secondary substance (SUB2).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501060200","","","","","1 = 11 years and under","2 = 12–14 years","3 = 15–17 years","4 = 18–20 years","5 = 21–24 years","6 = 25–29 years","7 = 30 years and older","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Age_First_Use_Tertiary_Substance","For alcohol use, this is the age of first intoxication. For drugs other than alcohol, this field identifies the age at which the
+client first used the substance identified as the tertiary substance (SUB3).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501060300","","","","","1 = 11 years and under","2 = 12–14 years","3 = 15–17 years","4 = 18–20 years","5 = 21–24 years","6 = 25–29 years","7 = 30 years and older","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Biologic_Sex","This field identifies the client's biologic sex.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501070000","","","","","1 = Male","2 =  Female","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Planned_Medication_Opioid","This field identifies whether the use of opioid medications such as methadone, buprenorphine, or naltrexone will be part of
+the client's treatment plan.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501080000","","","","","1 =  Yes","2 = No","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Number_Previous_Substance_Treatment_Episodes","Indicates the number of previous treatment episodes the client has received in any drug or alcohol program. Changes in
+service for the same episode (transfers) should not be counted as separate prior episodes.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501090000","","","","","0 = No prior treatment episodes","1 = One prior treatment episode","2 = Two prior treatment episodes","3 = Three prior treatment episodes","4 = Four prior treatment episodes","5 = Five or more prior treatment episodes","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Treatment_Referral_Source","Describes the person or agency referring the client to the alcohol or drug use treatment program:
+• Individual (includes self-referral): Includes the client, a family member, friend, or any other individual who would not be
+included in any of the following categories. Includes self-referral due to pending DWI/DUI.
+• Alcohol/drug use care provider: Any program, clinic, or other health care provider whose principal objective is treating
+clients with substance use problems, or a program whose activities are related to alcohol or other drug use prevention,
+education, or treatment.
+• Other health care provider: A physician, psychiatrist, or other licensed health care professional; or general hospital,
+psychiatric hospital, mental health program, or nursing home.
+• School (educational): A school principal, counselor, or teacher; or a student assistance program (SAP), the school system,
+or an educational agency.
+• Employer/EAP: A supervisor or an employee counselor.
+• Other community referral: Community or religious organization or any federal, state, or local agency that provides aid in
+the areas of poverty relief, unemployment, shelter, or social welfare. Self-help groups such as Alcoholics Anonymous (AA),
+Al-Anon, and Narcotics Anonymous (NA) are also included in this category. Defense attorneys are also included in this
+category.
+• Court/criminal justice referral/DUI/DWI: Any police official, judge, prosecutor, probation officer, or other person
+affiliated with a federal, state, or county judicial system. Includes referral by a court for DWI/DUI, clients referred in lieu
+of or for deferred prosecution, or during pretrial release, or before or after official adjudication. Includes clients on
+pre-parole, pre-release, work or home furlough, or TASC. Client need not be officially designated as 'on parole'.
+Includes clients referred through civil commitment. Client referrals in this category are further defined in the
+Supplemental Data Set item 'detailed criminal justice referral' (DETCRIM).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501100000","","","","","1 = Individual (includes self-referral)","2 = Alcohol/drug use care provider","3 = Other health care provider","4 = School (educational)","5 = Employer/EAP","6 = Other community referral"," 7 = Court/criminal justice referral/DUI/DWI","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Race","Specifies the client's race:
+• Alaska Native (Aleut, Eskimo, Indian): Origins in any of the original people of Alaska.
+• American Indian (other than Alaska Native): Origins in any of the original people of North America and South America
+(including Central America) and who maintain cultural identification through tribal affiliation or community attachment.
+• Asian or Pacific Islander: Origins in any of the original people of the Far East, the Indian subcontinent, Southeast Asia, or
+the Pacific Islands.
+• Black or African American: Origins in any of the black racial groups of Africa.
+• White: Origins in any of the original people of Europe, North Africa, or the Middle East.
+• Asian: Origins in any of the original people of the Far East, the Indian subcontinent, or Southeast Asia, including, for
+example, Cambodia, China, India, Japan, Korea, Malaysia, Philippine Islands, Thailand, and Vietnam.
+• Other single race: Use this category for instances in which the client is not classified in any category above or whose
+origin group, because of area custom, is regarded as a racial class distinct from the above categories. (Do not use this
+category for clients indicating multiple races.)
+• Two or more races: Use this code when the state data system allows multiple race selection and more than one race is
+indicated.
+• Native Hawaiian or Other Pacific Islander: Origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific
+Islands.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501110000","","","","","1 = Alaska Native (Aleut, Eskimo, Indian)","2 = American Indian (other than Alaska Native)","3 = Asian or Pacific Islander","4 = Black or African American","5 = White","6 = Asian","7 = Other single race","8 = Two or more races","9 = Native Hawaiian or Other Pacific Islander","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Usual_Route_Administration_Primary","This field identifies the usual route of administration of the primary substance (SUB1).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501120100","","","","","1 = Oral","2 = Smoking","3 = Inhalation","4 = Injection (IV or intramuscular)","5 = Other","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Usual_Route_Administration_Secondary","This field identifies the usual route of administration of the secondary substance (SUB2).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501120200","","","","","1 = Oral","2 = Smoking","3 = Inhalation","4 = Injection (IV or intramuscular)","5 = Other","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Usual_Route_Administration_Tertiary","This field identifies the usual route of administration of the tertiary substance (SUB3).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501120300","","","","","1 = Oral","2 = Smoking","3 = Inhalation","4 = Injection (IV or intramuscular)","5 = Other","(-9) = Missing/unknown/not collected/invalid","","","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Service_Setting_Admission","Describes the type of service and treatment setting in which the client is placed at the time of admission or transfer.
+• Detoxification, 24-hour service, hospital inpatient:
+24 hour per day medical acute care services in hospital setting for detoxification of persons with severe medical
+complications associated with withdrawal.
+• Detoxification, 24-hour service, free-standing residential:
+24 hour per day services in non-hospital setting providing for safe withdrawal and transition to ongoing treatment.
+• Residential rehabilitation—hospital (other than detox):
+24 hour per day medical care in a hospital facility in conjunction with treatment services for alcohol and other drug use and
+dependency.
+• Residential rehabilitation—short term (30 days or fewer):
+Typically, 30 days or less of non-acute care in a setting with treatment services for alcohol and other drug use and
+dependency.
+• Residential rehabilitation—long term (more than 30 days):
+Typically, more than 30 days of non-acute care in a setting with treatment services for alcohol and other drug use and
+dependency; this may include transitional living arrangements such as halfway houses.
+• Ambulatory—intensive outpatient:
+As a minimum, the client receives treatment lasting two or more hours per day for three or more days per week.
+• Ambulatory—non-intensive outpatient:
+Ambulatory treatment services including individual, family, and/or group services, and may include pharmacological therapies.
+• Ambulatory—detoxification:
+Outpatient treatment services providing for safe withdrawal in an ambulatory setting (pharmacological or
+non-pharmacological).","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501130000","","","","","1 = Detox, 24-hour, hospital inpatient","2 = Detox, 24-hour, free-standing residential","3 = Rehab/residential, hospital (non-detox) ","4 = Rehab/residential, short term (30 days or fewer)","5 = Rehab/residential, long term (more than 30 days) ","6 = Ambulatory, intensive outpatient","7 = Ambulatory, non-intensive outpatient","8 = Ambulatory, detoxification","","","","","","","","","","","",""
+"PX550501_Treatment_Availability_Level_Care_Substance_Use_Admission_Primary","This field identifies the client's primary substance use.
+(1) None
+(2) Alcohol
+(3) Cocaine/crack
+(4) Marijuana/hashish: Includes THC and any other cannabis sativa preparations.
+(5) Heroin
+(6) Non-prescription methadone
+(7) Other opiates and synthetics: Includes buprenorphine, codeine, hydrocodone, hydromorphone, meperidine, morphine,
+opium, oxycodone, pentazocine, propoxyphene, tramadol, and any other drug with morphine-like effects.
+(8) PCP: Phencyclidine
+(9) Other hallucinogens: Includes LSD, DMT, STP, hallucinogens, mescaline, peyote, psilocybin, etc.
+(10) Methamphetamine
+(11) Other amphetamines: Includes amphetamines, MDMA, phenmetrazine, and other unspecified amines and related drugs.
+(12) Other stimulants: Includes methylphenidate and any other stimulants.
+(13) Benzodiazepines: Includes alprazolam, chlordiazepoxide, clonazepam, clorazepate, diazepam, flunitrazepam,
+flurazepam, halazepam, lorazepam, oxazepam, prazepam, temazepam, triazolam, and other unspecified benzodiazepines.
+(14) Other non-benzodiazepine tranquilizers: Includes meprobamate, tranquilizers, etc.
+(15) Barbiturates: Includes amobarbital, pentobarbital, phenobarbital, secobarbital, etc.
+(16) Other non-barbiturate sedatives or hypnotics: Includes chloral hydrate, ethchlorvynol, glutethimide, methaqualone,
+sedatives/hypnotics, etc.
+(17) Inhalants: Includes chloroform, ether, gasoline, glue, nitrous oxide, paint thinner, etc.
+(18) Over-the-counter medications: Includes aspirin, cough syrup, diphenhydramine and other anti-histamines, sleep aids,
+and any other legally obtained non-prescription medication.
+(19) Other: Includes diphenylhydantoin/phenytoin, GHB/GBL, ketamine, etc.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501140100","","","","","1 = None","2 = Alcohol","3 = Cocaine/crack","4 = Marijuana/hashish","5 = Heroin","6 = Non-prescription methadone","7 = Other opiates and synthetics","8 = PCP","9 = Other hallucinogens","10 = Methamphetamine","11 = Other amphetamines","12 = Other stimulants","13 = Benzodiazepines","14 = Other non-benzodiazepine tranquilizers","15 = Barbiturates","16 = Other non-barbiturate sedatives or hypnotics","17 = Inhalants","18 = Over-the-counter medications","19 = Other","(-9) = Missing/unknown/not collected/invalid"
+"PX550501_Treatment_Availability_Level_Care_Substance_Use_Admission_Secondary","This field identifies the client's secondary substance use.
+(1) None
+(2) Alcohol
+(3) Cocaine/crack
+(4) Marijuana/hashish: Includes THC and any other cannabis sativa preparations.
+(5) Heroin
+(6) Non-prescription methadone
+(7) Other opiates and synthetics: Includes buprenorphine, codeine, hydrocodone, hydromorphone, meperidine, morphine,
+opium, oxycodone, pentazocine, propoxyphene, tramadol, and any other drug with morphine-like effects.
+(8) PCP: Phencyclidine
+(9) Other hallucinogens: Includes LSD, DMT, STP, hallucinogens, mescaline, peyote, psilocybin, etc.
+(10) Methamphetamine
+(11) Other amphetamines: Includes amphetamines, MDMA, phenmetrazine, and other unspecified amines and related drugs.
+(12) Other stimulants: Includes methylphenidate and any other stimulants.
+(13) Benzodiazepines: Includes alprazolam, chlordiazepoxide, clonazepam, clorazepate, diazepam, flunitrazepam,
+flurazepam, halazepam, lorazepam, oxazepam, prazepam, temazepam, triazolam, and other unspecified benzodiazepines.
+(14) Other non-benzodiazepine tranquilizers: Includes meprobamate, tranquilizers, etc.
+(15) Barbiturates: Includes amobarbital, pentobarbital, phenobarbital, secobarbital, etc.
+(16) Other non-barbiturate sedatives or hypnotics: Includes chloral hydrate, ethchlorvynol, glutethimide, methaqualone,
+sedatives/hypnotics, etc.
+(17) Inhalants: Includes chloroform, ether, gasoline, glue, nitrous oxide, paint thinner, etc.
+(18) Over-the-counter medications: Includes aspirin, cough syrup, diphenhydramine and other anti-histamines, sleep aids,
+and any other legally obtained non-prescription medication.
+(19) Other: Includes diphenylhydantoin/phenytoin, GHB/GBL, ketamine, etc.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501140200","","","","","1 = None","2 = Alcohol","3 = Cocaine/crack","4 = Marijuana/hashish","5 = Heroin","6 = Non-prescription methadone","7 = Other opiates and synthetics","8 = PCP","9 = Other hallucinogens","10 = Methamphetamine","11 = Other amphetamines","12 = Other stimulants","13 = Benzodiazepines","14 = Other non-benzodiazepine tranquilizers","15 = Barbiturates","16 = Other non-barbiturate sedatives or hypnotics","17 = Inhalants","18 = Over-the-counter medications","19 = Other","(-9) = Missing/unknown/not collected/invalid"
+"PX550501_Treatment_Availability_Level_Care_Substance_Use_Admission_Tertiary","This field identifies the client's tertiary substance use.
+(1) None
+(2) Alcohol
+(3) Cocaine/crack
+(4) Marijuana/hashish: Includes THC and any other cannabis sativa preparations.
+(5) Heroin
+(6) Non-prescription methadone
+(7) Other opiates and synthetics: Includes buprenorphine, codeine, hydrocodone, hydromorphone, meperidine, morphine,
+opium, oxycodone, pentazocine, propoxyphene, tramadol, and any other drug with morphine-like effects.
+(8) PCP: Phencyclidine
+(9) Other hallucinogens: Includes LSD, DMT, STP, hallucinogens, mescaline, peyote, psilocybin, etc.
+(10) Methamphetamine
+(11) Other amphetamines: Includes amphetamines, MDMA, phenmetrazine, and other unspecified amines and related drugs.
+(12) Other stimulants: Includes methylphenidate and any other stimulants.
+(13) Benzodiazepines: Includes alprazolam, chlordiazepoxide, clonazepam, clorazepate, diazepam, flunitrazepam,
+flurazepam, halazepam, lorazepam, oxazepam, prazepam, temazepam, triazolam, and other unspecified benzodiazepines.
+(14) Other non-benzodiazepine tranquilizers: Includes meprobamate, tranquilizers, etc.
+(15) Barbiturates: Includes amobarbital, pentobarbital, phenobarbital, secobarbital, etc.
+(16) Other non-barbiturate sedatives or hypnotics: Includes chloral hydrate, ethchlorvynol, glutethimide, methaqualone,
+sedatives/hypnotics, etc.
+(17) Inhalants: Includes chloroform, ether, gasoline, glue, nitrous oxide, paint thinner, etc.
+(18) Over-the-counter medications: Includes aspirin, cough syrup, diphenhydramine and other anti-histamines, sleep aids,
+and any other legally obtained non-prescription medication.
+(19) Other: Includes diphenylhydantoin/phenytoin, GHB/GBL, ketamine, etc.","DCW_550501.doc","encoded values","","","","","","","PhenX","PX550501140300","","","","","1 = None","2 = Alcohol","3 = Cocaine/crack","4 = Marijuana/hashish","5 = Heroin","6 = Non-prescription methadone","7 = Other opiates and synthetics","8 = PCP","9 = Other hallucinogens","10 = Methamphetamine","11 = Other amphetamines","12 = Other stimulants","13 = Benzodiazepines","14 = Other non-benzodiazepine tranquilizers","15 = Barbiturates","16 = Other non-barbiturate sedatives or hypnotics","17 = Inhalants","18 = Over-the-counter medications","19 = Other","(-9) = Missing/unknown/not collected/invalid"

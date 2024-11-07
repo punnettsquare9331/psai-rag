@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830201_Transfusion_Lifetime,Estimate the number of units (pints) of blood that you have ever received. (Select one).,DCW_830201.doc,enumerated,,,,,,,PhenX,PX830201010000,,,,,none,1 to 10,11 to 20,21 to 50,more than 50,Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830201_Transfusion_Chronic_Therapy,Are you on chronic transfusion therapy at this time?,DCW_830201.doc,enumerated,,,,,,,PhenX,PX830201020000,,,,,Yes,No,Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX830201_Transfusion_Iron_Chelation,Are you on iron chelation treatment?,DCW_830201.doc,enumerated,,,,,,,PhenX,PX830201030000,,,,,Yes,No,Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080601_Fluoride_Toothpaste_In_Family,Does anyone in the family use toothpaste with fluoride?,DCW_080601.doc,encoded values,,,,,,,PhenX,PX080601010100,,,,,1 = Yes,2 = No,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080601_Fluoride_Toothpaste_Who,Who is this?,DCW_080601.doc,string,,,,,,,PhenX,PX080601010200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080601_Fluoride_Toothpaste_Anyone_Else,Anyone else?,DCW_080601.doc,encoded values,,,,,,,PhenX,PX080601010300,,,,,1 = Yes,2 = No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080601_Fluoride_Vitamin_Tablet_Drop_Supplement,"Does [child's name] now take vitamins with FLUORIDE in them or any other kind of FLUORIDE tablets, drops or supplements?",DCW_080601.doc,encoded values,,,,,,,PhenX,PX080601020000,,,,,1 = Yes,2 = No,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

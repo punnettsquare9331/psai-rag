@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX021604_Waist_Circumference_Waist_Circumference_Nhanes_Measurement","Measured circumference at the top of the hips measured to the nearest 0.1 centimeter.","DCW_021604.doc","decimal","cm","1","1000","","","","PhenX","PX021604010100","","","","","",""

@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,
+PX030703_Age_FirstCigarette_Adult_Hundred,Have you smoked at least 100 cigarettes if your entire life?,DCW_030703.doc,encoded,,,,,,,PhenX,PX030703010000,,,,,1 = Yes,2 = No,,,,,,,,,,,,,
+PX030703_Age_FirstCigarette_Adult_SmokeRegularly,How old were you when you first started smoking cigarettes FAIRLY REGULARLY?,DCW_030703.doc,integer,,1,99,,ASK IF Q1 = 2; Enter (0) if never smoked regularly,,PhenX,PX030703020100,,,,,,,,,,,,,,,,,,,
+PX030703_Age_FirstCigarette_Adult_SmokeRegularly_Coded,How old were you when you first started smoking cigarettes FAIRLY REGULARLY?,DCW_030703.doc,enumerated,,,,,,,PhenX,PX030703020200,,,,,Don't Know / Refused,,,,,,,,,,,,,,
+PX030703_Age_FirstCigarette_Adult_First_Time,You said that you never smoked regularly. How old were you the first time you smoked part or all of a cigarette?,DCW_030703.doc,integer,,1,99,,,,PhenX,PX030703030000,,,,,,,,,,,,,,,,,,,

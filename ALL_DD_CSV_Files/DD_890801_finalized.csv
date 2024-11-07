@@ -1,0 +1,7 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX890801_Hydroxyurea_Adherence_Prospective_Studies_Hydroxyurea","Hydroxyurea","DCW_890801.doc","enumerated","","","","","","","PhenX","PX890801010000","","","","","Yes","No","","",""
+"PX890801_Hydroxyurea_Adherence_Prospective_Studies_Qty_Tablets","Tablets dispensed at last visit","DCW_890801.doc","integer","","0","999995","","","","PhenX","PX890801020000","","","","","","","","",""
+"PX890801_Hydroxyurea_Adherence_Prospective_Studies_Date_Returned","Date tablets returned","DCW_890801.doc","date","","","","","","","PhenX","PX890801030000","","","","","","","","",""
+"PX890801_Hydroxyurea_Adherence_Prospective_Studies_Qty_Returned","Indicate number of tablets returned","DCW_890801.doc","integer","","0","999995","","","","PhenX","PX890801040000","","","","","","","","",""
+"PX890801_Hydroxyurea_Adherence_Prospective_Studies_Taken","Tablets taken","DCW_890801.doc","integer","","0","999995","","","","PhenX","PX890801050000","","","","","","","","",""
+"PX890801_Hydroxyurea_Adherence_Prospective_Studies_Adherence","Drug adherence","DCW_890801.doc","decimal","","0","100","","","","PhenX","PX890801060000","","","","","","","","",""

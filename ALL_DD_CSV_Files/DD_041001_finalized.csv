@@ -1,0 +1,8 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041001_Ever_Have_Abdominal_Aortic_Aneurysm,Have you ever been diagnosed by a doctor as having an abdominal aortic aneurysm?,DCW_041001.doc,enumerated,,,,,,,PhenX,PX041001010000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041001_AAA_Surgery,Have you had surgery or other repair for this aneurysm?,DCW_041001.doc,enumerated,,,,,,,PhenX,PX041001020000,,,,,Yes,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041001_Ultrasound_Machine,Ultrasound machine name and model.,DCW_041001.doc,string,,,,,,,PhenX,PX041001030100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041001_Max_Transverse_Diameter,Maximum transverse diameter (cm) of the aorta.,DCW_041001.doc,decimal,Centimeter,,,,,,PhenX,PX041001030200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041001_Max_Anterior_Posterior_Diameter,Maximum anterior-posterior diameter (cm) in the longitudinal plane.,DCW_041001.doc,decimal,Centimeter,,,,,,PhenX,PX041001030300,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041001_Max_Aortic_Diameter,Maximum aortic diameter (cm).,DCW_041001.doc,decimal,Centimeter,,,,,,PhenX,PX041001030400,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX041001_Ultrasound_Image_ID,Ultrasound scan image ID.,DCW_041001.doc,string,,,,,,,PhenX,PX041001030500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,3 @@
+﻿VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,
+PX011601_Biological_Sex_Assigned_Birth,What was your biological sex assigned at birth?,DCW_011601.doc,enumerated,,,,,,,PhenX,PX011601010100,,,,,Female,Male,Intersex,None of these describe me,Prefer not to answer
+PX011601_Biological_Sex_Assigned_Birth_Other,What was your biological sex assigned at birth? Other,DCW_011601.doc,string,,,,,ASK IF Q1.1='None of these describe me',,Phenx,PX011601010200,,,,,,,,,

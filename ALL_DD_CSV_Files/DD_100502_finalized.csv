@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,
+PX100502_Removal_Female_Reproductive_Organs_Hysterectomy_Uterus,"Have you ever had a hysterectomy, that is, surgery to remove your uterus? ",DCW_100502.doc,encoded values,,,,,,,PhenX,PX100502010000,,,,,1 = Yes,2 = No
+PX100502_Removal_Female_Reproductive_Organs_Ovaries,Have you ever had both of your ovaries removed? ,DCW_100502.doc,encoded values,,,,,,,PhenX,PX100502020000,,,,,1 = Yes,2 = No

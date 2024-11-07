@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX020803_Hip_Circumference_Hip_Circumference_Total","Enter the hip circumference of the participant in centimeters","DCW_20803.doc","decimal","cm","","","","","","PhenX","PX020803010000","","","","","",""

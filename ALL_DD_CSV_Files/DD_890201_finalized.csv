@@ -1,0 +1,5 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX890201_Thrombosis_Catheter_Related_Age","Age at event (Catheter-related thrombosis): ______________","DCW_890201.doc","integer","","0","999995","","","","PhenX","PX890201010000","","","","","","","","",""
+"PX890201_Thrombosis_Catheter_Related_Year","Year: ________________","DCW_890201.doc","integer","","0","999995","","","","PhenX","PX890201020000","","","","","","","","",""
+"PX890201_Thrombosis_Catheter_Related_Site","Site: _________________","DCW_890201.doc","string","","","","","","","PhenX","PX890201030000","","","","","","","","",""
+"PX890201_Thrombosis_Catheter_Related_Method","Diagnostic method:","DCW_890201.doc","enumerated","","","","","","","PhenX","PX890201040000","","","","","Doppler ultrasound","V/Q perfusion scan","CT pulmonary angiogram","",""

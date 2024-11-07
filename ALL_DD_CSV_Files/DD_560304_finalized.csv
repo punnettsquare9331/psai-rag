@@ -1,0 +1,5 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES
+PX560304_Duration _Abstinence_Substance_Use_Days,When was the most recent time you used (Name of drug category)? Days,DCW_560304.doc,integer,days,,,,,,PhenX,PX560304010100,,,,,
+PX560304_Duration _Abstinence_Substance_Use_Weeks,When was the most recent time you used (Name of drug category)? Weeks,DCW_560304.doc,integer,weeks,,,,,,PhenX,PX560304010200,,,,,
+PX560304_Duration _Abstinence_Substance_Use_Months,When was the most recent time you used (Name of drug category)? Months,DCW_560304.doc,integer,months,,,,,,PhenX,PX560304010300,,,,,
+PX560304_Duration _Abstinence_Substance_Use_Years,When was the most recent time you used (Name of drug category)? Years,DCW_560304.doc,integer,years,,,,,,PhenX,PX560304010400,,,,,

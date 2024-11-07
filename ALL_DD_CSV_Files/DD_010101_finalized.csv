@@ -1,0 +1,7 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010101_Birthdate_Month,What is your birthdate?  Month,DCW_010101.doc,integer,Month,,,,This data element can’t be accepted by dbGaP since it may not be in accordance with HIPAA rules,,PhenX,PX010101010100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010101_Birthdate_Day,What is your birthdate?  Day,DCW_010101.doc,integer,Day,,,,This data element can’t be accepted by dbGaP since it may not be in accordance with HIPAA rules,,PhenX,PX010101010200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010101_Birthdate_Year,What is your birthdate?  Year,DCW_010101.doc,integer,Year,1900,2011,,,,PhenX,PX010101010300,,,,,1900..2011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010101_Birthdate_Coded,What is your birthdate?,DCW_010101.doc,encoded values,,,,,,,PhenX,PX010101010400,,,,,9 = Refused,7 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010101_Age,About how old are you?,DCW_010101.doc,integer,Years,0,110,,,,PhenX,PX010101020000,,,,,0..110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX010101_Age_Coded,About how old are you?,DCW_010101.doc,encoded values,,,,,,,PhenX,PX010101020100,,,,,999 = Refused,777 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

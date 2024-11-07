@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX860801_Patient_Reported_Impression_Change_Status","Since the start of the study, my overall status is:","DCW_860801.doc","encoded values","","","","","","","PhenX","PX860801010000","","","","","1 = Very Much Improved","2 = Much Improved","3 = Minimally Improved","4 = No Change","5 = Minimally Worse","6 = Much Worse","7 = Very Much Worse","","","",""

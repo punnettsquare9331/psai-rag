@@ -1,0 +1,7 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,
+PX240601_Pregnancy_Bioassay_Urine_Sample,Was the collected urine sample a first morning void sample?,DCW_240601.doc,enumerated,,,,,,,PhenX,PX240601010000,,,,,Yes,No,Don't know,Refused,,,,,,,,
+PX240601_Pregnancy_Bioassay_Sample_Collection_Date,When was the urine sample collected? Date,DCW_240601.doc,date,,,,,,,PhenX,PX240601020100,,,,,,,,,,,,,,,,
+PX240601_Pregnancy_Bioassay_Sample_Collection_Time,When was the urine sample collected? Time,DCW_240601.doc,time,,,,,,,PhenX,PX240601020200,,,,,,,,,,,,,,,,
+PX240601_Pregnancy_Bioassay_Test_Type,Was an immunoassay test kit or a digital pregnancy test kit used?,DCW_240601.doc,enumerated,,,,,,,PhenX,PX240601030000,,,,,Immunoassay,Digital,,,,,,,,,,
+PX240601_Pregnancy_Bioassay_Test_Results,What are the results of the pregnancy test?,DCW_240601.doc,enumerated,,,,,,,PhenX,PX240601040000,,,,,Positive,Negative,Invalid,,,,,,,,,
+PX240601_Pregnancy_Bioassay_Period,Has the patient just missed her period by 1-2 days?,DCW_240601.doc,enumerated,,,,,,,PhenX,PX240601050000,,,,,Yes (Repeat test in 7-10 days),No,,,,,,,,,,

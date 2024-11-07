@@ -1,0 +1,8 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX140501_Diabetes,Has your doctor or health care professional told you that you had one of the following:  Diabetes (sugar in blood),DCW_140501.doc,encoded values,,,,,,,PhenX,PX140501010000,,,,,1 = Yes,0 = No,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX140501_Diabetes_Medicine,IF YES:  Are you taking medicine for this?,DCW_140501.doc,encoded values,,,,,,,PhenX,PX140501010100,,,,,1 = Yes,0 = No,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX140501_Diabetes_Medicine_Type,If Yes,DCW_140501.doc,enumerated,,,,,,,PhenX,PX140501010101,,,,,Insulin,Pills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX140501_Diabetes_Age,IF YES:  At what age was this first treated?,DCW_140501.doc,integer,,,,,,,PhenX,PX140501010200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX140501_Diabetes_Age_Coded,IF YES:  At what age was this first treated?,DCW_140501.doc,encoded values,,,,,,,PhenX,PX140501010201,,,,,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX140501_Diabetes_Insulin,Was insulin your first diabetes medicine?,DCW_140501.doc,encoded values,,,,,,,PhenX,PX140501010300,,,,,1 = Yes,0 = No,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX140501_Diabetes_Women_Pregnancy,For Women: did diabetes occur ONLY during Pregnancy?,DCW_140501.doc,encoded values,,,,,,,PhenX,PX140501010400,,,,,1 = Yes,0 = No,9 = Don't Know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

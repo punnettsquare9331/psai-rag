@@ -1,0 +1,2 @@
+"VARNAME","VARDESC","DOCFILE","TYPE","UNITS","MIN","MAX","RESOLUTION","COMMENT1","COMMENT2","VARIABLE_SOURCE","SOURCE_VARIABLE_ID","VARIABLE_MAPPING","UNIQUEKEY","COLLINTERVAL","ORDER","VALUES"
+"PX020705_Height_Recumbent_Length_Height","Measure child from head to toe","DCW_20705.doc","decimal","cm","","","","","","PhenX","PX020705010000","","","","","",""

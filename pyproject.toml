@@ -1,0 +1,35 @@
+[project]
+name = "psai-rag"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Puneet Velidi", email = "psv23@cornell.edu" }
+]
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "langchain>=0.3.7",
+    "langchain-community>=0.3.5",
+    "uuid>=1.30",
+    "langchain-openai>=0.2.6",
+    "langchain-core>=0.3.15",
+    "langchain-mongodb>=0.2.0",
+    "pymongo>=4.10.1",
+    "gradio>=5.5.0",
+    "asyncio>=3.4.3",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/psai_rag"]

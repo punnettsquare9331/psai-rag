@@ -1,0 +1,4 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080701_Orthodontic_Treatment_Ever,Have you ever had any orthodontic treatment?,DCW_080701.doc,encoded values,,,,,,,PhenX,PX080701010000,,,,,0 = No,1 = Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080701_Teeth_Fixed_Braces_Length,How long did you wear fixed braces on your teeth?,DCW_080701.doc,encoded values,,,,,,,PhenX,PX080701020000,,,,,0 = Not Applicable,1 = 1 year or less,2 = 1-2 years,3 = > 2 years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX080701_Malocclusion_Class,Angle's Classification is a set of criteria that categorizes the three different types of malocclusion.,DCW_080701.doc,enumerated,,,,,,,PhenX,PX080701030000,,,,,1,2,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

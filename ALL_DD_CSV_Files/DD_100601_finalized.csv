@@ -1,0 +1,3 @@
+VARNAME,VARDESC,DOCFILE,TYPE,UNITS,MIN,MAX,RESOLUTION,COMMENT1,COMMENT2,VARIABLE_SOURCE,SOURCE_VARIABLE_ID,VARIABLE_MAPPING,UNIQUEKEY,COLLINTERVAL,ORDER,VALUES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX100601_Menstrual_Period_Began_First_Age,How old were you when your menstrual periods began?,DCW_100601.doc,enumerated,,,,,,,PhenX,PX100601010000,,,,,9 or less,10,11,12,13,14,15,16,17 or more,never had periods,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PX100601_Reach_Full_Height_Age,At about what age did you reach your full height?,DCW_100601.doc,enumerated,,,,,,,PhenX,PX100601020000,,,,,Before age 13,13-17 years of age,after age 17,don't know,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

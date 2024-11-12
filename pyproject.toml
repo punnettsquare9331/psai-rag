@@ -16,6 +16,9 @@ dependencies = [
     "pymongo>=4.10.1",
     "gradio>=5.5.0",
     "asyncio>=3.4.3",
+    "python-docx>=1.1.2",
+    "pypandoc>=1.14",
+    "xlrd>=2.0.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

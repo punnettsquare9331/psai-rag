@@ -3,7 +3,7 @@ name = "psai-rag"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Puneet Velidi", email = "psv23@cornell.edu" }
+    { name = "\"Akshay Akula\"", email = "akulaakshay30@gmail.com" }
 ]
 dependencies = [
     "python-dotenv>=1.0.1",
@@ -22,7 +22,7 @@ dependencies = [
     "bs4>=0.0.2",
 ]
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.12"
 
 [build-system]
 requires = ["hatchling"]

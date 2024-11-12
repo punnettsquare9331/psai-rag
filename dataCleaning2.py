@@ -18,7 +18,7 @@ os.environ['MONGODB_ATLAS_CLUSTER_URI'] = os.getenv('MONGODB_ATLAS_CLUSTER_URI')
 # MongoDB setup
 client = MongoClient(os.environ['MONGODB_ATLAS_CLUSTER_URI'])
 DB_NAME = "phenx_data"
-COLLECTION_NAME = "PhenX_langchain_loader_with_embeddings"
+COLLECTION_NAME = "PhenX_langchain_loader_with_embeddings_v2"
 MONGODB_COLLECTION = client[DB_NAME][COLLECTION_NAME]
 
 # Initialize the embedding model
@@ -48,11 +48,12 @@ if len(divs) >= 3:
         protocol_name = ""
         description = ""
         protocol_text = ""
-        print(len(tables));
+        # print(len(tables));
         # Extract information from each row
         for row in table.find_all("tr"):
             cells = row.find_all("td")
-            if len(cells) == 2:
+            if len(cells) >= 2:
+
                 header = cells[0].get_text(strip=True)
                 value = cells[1].get_text(strip=True)
 
@@ -60,9 +61,8 @@ if len(divs) >= 3:
                     protocol_id = value
                 elif header == "Description of Protocol":
                     description = cells[1].get_text(strip=True)
-                elif header == "Protocol Text":
+                elif header == "Protocol Text" or header == "Protocol":
                     protocol_text = cells[1].get_text(" ", strip=True)  # Combine all <p> text into one string
-            
             # Extract Protocol Name from the table header
             header_row = table.find("h3")
             if header_row:

@@ -49,7 +49,7 @@ distro==1.9.0
     # via openai
 dnspython==2.7.0
     # via pymongo
-fastapi==0.115.4
+fastapi==0.115.5
     # via gradio
 ffmpy==0.4.0
     # via gradio
@@ -88,7 +88,7 @@ idna==3.10
     # via yarl
 jinja2==3.1.4
     # via gradio
-jiter==0.7.0
+jiter==0.7.1
     # via openai
 jsonpatch==1.33
     # via langchain-core
@@ -97,9 +97,9 @@ jsonpointer==3.0.0
 langchain==0.3.7
     # via langchain-community
     # via psai-rag
-langchain-community==0.3.5
+langchain-community==0.3.6
     # via psai-rag
-langchain-core==0.3.15
+langchain-core==0.3.16
     # via langchain
     # via langchain-community
     # via langchain-mongodb
@@ -108,11 +108,11 @@ langchain-core==0.3.15
     # via psai-rag
 langchain-mongodb==0.2.0
     # via psai-rag
-langchain-openai==0.2.6
+langchain-openai==0.2.7
     # via psai-rag
 langchain-text-splitters==0.3.2
     # via langchain
-langsmith==0.1.140
+langsmith==0.1.142
     # via langchain
     # via langchain-community
     # via langchain-core
@@ -138,12 +138,12 @@ numpy==1.26.4
     # via langchain-community
     # via langchain-mongodb
     # via pandas
-openai==1.54.3
+openai==1.54.4
     # via langchain-openai
 orjson==3.10.11
     # via gradio
     # via langsmith
-packaging==24.1
+packaging==24.2
     # via gradio
     # via gradio-client
     # via huggingface-hub
@@ -206,7 +206,7 @@ requests-toolbelt==1.0.0
     # via langsmith
 rich==13.9.4
     # via typer
-ruff==0.7.2
+ruff==0.7.3
     # via gradio
 safehttpx==0.1.1
     # via gradio
@@ -239,7 +239,7 @@ tomlkit==0.12.0
 tqdm==4.67.0
     # via huggingface-hub
     # via openai
-typer==0.12.5
+typer==0.13.0
     # via gradio
 typing-extensions==4.12.2
     # via fastapi

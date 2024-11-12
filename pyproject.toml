@@ -19,6 +19,7 @@ dependencies = [
     "python-docx>=1.1.2",
     "pypandoc>=1.14",
     "xlrd>=2.0.1",
+    "bs4>=0.0.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

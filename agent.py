@@ -5,6 +5,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 from pymongo import MongoClient
 import gradio as gr
+import time
 
 from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
@@ -38,23 +39,68 @@ vectorStore = MongoDBAtlasVectorSearch(
 )
 
 # Initialize RetrievalQA with an OpenAI model for generating questions
-llm = OpenAI(openai_api_key=os.getenv('OPENAI_API_KEY'), temperature=0.7)
-retriever = vectorStore.as_retriever()
+llm = OpenAI(openai_api_key=os.getenv('OPENAI_API_KEY'), temperature=0.0)
+retriever = vectorStore.as_retriever(search_kwargs={"k": 1}) # Limit it to 1 document
 qa_chain = RetrievalQA.from_chain_type(llm, chain_type="stuff", retriever=retriever)
 
-# Function to generate follow-up questions using RAG
-def generate_follow_up(protocol_text, user_input):
-    prompt = f"""You are a compassionate psychiatrist conducting a mental health interview. Based on the following protocol text and the patient's response, generate a relevant follow-up question.
 
-Protocol Text:
-{protocol_text}
+def generate_follow_up_with_rag(protocol_text, user_input, chat_history):
+    template = """Use only the following context to ask a follow-up question. If you do not know what to ask, say so and prompt the user to contact support. You should talk like you are a compassinate psychiatrist conducting a mental health interview. Based on the following protocol text and the patient's response, generate a relevant follow-up question. You will go through the protocol with the user question by question.
 
-Patient Response:
-{user_input}
+    Protocol Context: {protocol_text}
 
-Follow-up Question:"""
+    Patient Response: {user_input}
+
+    Chat Context: {chat_context}
+
+    Follow-up Question From the Protocol In a Human Readable Format:"""
+    return qa_chain.run(template).strip()
+
+def generate_follow_up(protocol_text, user_input, chat_history):
+    # Convert chat history into a formatted string
+    history_text = ""
+    for user_msg, ai_msg in chat_history:
+        history_text += f"Patient: {user_msg}\nPsychiatrist: {ai_msg}\n"
+
+    prompt = f"""You are a compassionate psychiatrist conducting a mental health interview. 
+        Use the protocol text to guide your questions, and consider the previous conversation history.
+
+        Protocol Text:
+        {protocol_text}
+
+        Previous Conversation:
+        {history_text}
+
+        Patient's Latest Response:
+        {user_input}
+
+        You Should Walk through the protocol with the user question by question.
+        Based on the protocol and conversation history, first provide a compassionate response to the patient's latest response then provide your next question:"""
     response = llm(prompt)
     return response.strip()
+
+def generate_score(protocol_text, user_input, chat_history):
+    # Convert chat history into a formatted string
+    history_text = ""
+    for user_msg, ai_msg in chat_history:
+        history_text += f"Patient: {user_msg}\nPsychiatrist: {ai_msg}\n"
+
+    prompt = f"""You are a compassionate psychiatrist conducting a mental health interview. 
+        Use the protocol text to guide your scoring, and consider the previous conversation history.
+
+        Protocol Text:
+        {protocol_text}
+
+        Previous Conversation:
+        {history_text}
+
+        Patient's Latest Response:
+        {user_input}
+
+        You should attempt to score the patient's latest response based on the protocol and conversation history:"""
+    response = llm(prompt)
+    return response.strip()
+
 
 # Function to find the most relevant questionnaire based on user input
 def find_relevant_protocol(user_input):
@@ -80,6 +126,9 @@ def log_conversation(user_input, response, protocol_id):
         "user_message": user_input,
         "psai_response": response
     })
+
+def clear_conversation_history():
+    CONVERSATION_COLLECTION.delete_many({})
 
 # Function to fetch conversation history from MongoDB
 def get_conversation_history():
@@ -131,6 +180,9 @@ current_protocol = {
     'score': None
 }
 
+# Map to store protocol ID and its subsequent score
+protocol_scores = {}
+
 # -------------------- User Interface -------------------- #
 
 def create_user_interface():
@@ -163,7 +215,8 @@ def create_user_interface():
             'protocol_id': None,
             'protocol_name': None,
             'protocol_text': None,
-            'score': None
+            'score': None,
+            'protocol_scores': {}
         })
         
         # Function to handle user messages
@@ -190,11 +243,14 @@ def create_user_interface():
                     state['protocol_text'] = protocol_text
                     state['score'] = score
                     
+                    protocol_scores[protocol_id] = ""
                     # Generate the first follow-up question
-                    follow_up_question = generate_follow_up(protocol_text, user_input)
+                    follow_up_question = generate_follow_up(protocol_text, user_input, "")
                     
+                    if ':' in follow_up_question:
+                        follow_up_question_clean = follow_up_question.split(':', 1)[1].strip()
                     # Update chat history
-                    history.append((user_input, follow_up_question))
+                    history.append((user_input, follow_up_question_clean))
                     
                     # Log conversation
                     log_conversation(user_input, follow_up_question, protocol_id)
@@ -212,9 +268,14 @@ def create_user_interface():
             else:
                 # Subsequent user inputs: generate follow-up questions based on protocol_text
                 protocol_text = state['protocol_text']
-                follow_up_question = generate_follow_up(protocol_text, user_input)
-                history.append((user_input, follow_up_question))
-                
+                follow_up_question = generate_follow_up(protocol_text, user_input, history)
+                score = generate_score(protocol_text, user_input, history)
+                # Remove any text and colon before the response
+                if ':' in follow_up_question:
+                    follow_up_question_clean = follow_up_question.split(':', 1)[1].strip()
+                history.append((user_input, follow_up_question_clean))
+
+                protocol_scores[state['protocol_id']] = score
                 # Log conversation
                 log_conversation(user_input, follow_up_question, state['protocol_id'])
                 
@@ -234,23 +295,27 @@ def create_user_interface():
 
 def create_clinician_interface():
     with gr.Blocks() as clinician_interface:
-        gr.Markdown("# Clinician Dashboard")
-        
-        with gr.Row():
-            with gr.Column(scale=2):
-                gr.Markdown("## Conversation History")
-                clinician_history = gr.Markdown(value="Fetching conversation history...", label="Conversation Log")
-                update_btn = gr.Button("Refresh Conversation History")
-            with gr.Column(scale=1):
-                gr.Markdown("## Current Protocol")
-                protocol_info = gr.Markdown(value="No protocol selected.", label="Protocol Details")
-                stop_btn = gr.Button("Stop Chatbot")
-                #stop_btn.style(full_width=True, variant="stop")
-        
+
         # Function to update conversation history
         def update_clinician_view():
             return get_conversation_history()
         
+        # Function to clear conversation history
+        def clear_history():
+            clear_conversation_history()
+            return "Conversation history has been cleared.", update_clinician_view()
+        
+        def update_protocol_scores():
+            if not protocol_scores:
+                return "No protocols have been selected yet."
+            
+            # Format the protocol scores as a markdown list
+            scores_text = "### Selected Protocols:\n"
+            for protocol_id, score in protocol_scores.items():
+                protocol_link = f"https://www.phenxtoolkit.org/protocols/view/{protocol_id}"
+                scores_text += f"- [{protocol_id}]({protocol_link}): {score}\n"
+            
+            return scores_text
         # Function to update protocol information
         def update_protocol_info():
             with protocol_lock:
@@ -264,21 +329,44 @@ def create_clinician_interface():
                     protocol_details = "No protocol selected."
             return protocol_details
         
-        # Function to stop the chatbot
-        def stop_chatbot():
-            stop_event.set()
-            return "Chatbot has been stopped.", update_protocol_info()
-        
-        # Set up button actions
-        update_btn.click(fn=update_clinician_view, outputs=clinician_history)
-        stop_btn.click(fn=stop_chatbot, outputs=[clinician_history, protocol_info])
-        
         # Function to periodically update protocol info
         def auto_update_protocol():
             while not stop_event.is_set():
                 protocol_info.value = update_protocol_info()
                 time.sleep(5)
         
+        # Function to stop the chatbot
+        def stop_chatbot():
+            stop_event.set()
+            return "Chatbot has been stopped.", update_protocol_info()
+
+        gr.Markdown("# Clinician Dashboard")
+        
+        with gr.Row():
+            with gr.Column(scale=2):
+                gr.Markdown("## Conversation History")
+                clinician_history = gr.Markdown(value="Fetching conversation history...", label="Conversation Log")
+                update_btn = gr.Button("Refresh Conversation History")
+                # Add a button to clear conversation history
+                clear_history_btn = gr.Button("Clear Conversation History")
+                clear_history_btn.click(fn=clear_history, outputs=[clinician_history])
+            with gr.Column(scale=1):
+                gr.Markdown("## Current Protocol")
+                protocol_info = gr.Markdown(value="No protocol selected.", label="Protocol Details")
+                refresh_protocol_btn = gr.Button("Refresh Protocol Info")
+                refresh_protocol_btn.click(fn=update_protocol_info, outputs=protocol_info)
+                gr.Markdown("## Current Protocol Scoring")
+                scoring_info = gr.Markdown(value="Fetching protocol scoring...", label="Protocol Scoring")
+                refresh_scoring_btn = gr.Button("Refresh Protocol Scoring")
+                refresh_scoring_btn.click(fn=update_protocol_scores, outputs=scoring_info)
+                stop_btn = gr.Button("Stop Chatbot")
+
+                #stop_btn.style(full_width=True, variant="stop")
+        # Set up button actions
+        update_btn.click(fn=update_clinician_view, outputs=clinician_history)
+        stop_btn.click(fn=stop_chatbot, outputs=[clinician_history, protocol_info])
+        
+
     return clinician_interface
 
 # -------------------- Launch Both Interfaces -------------------- #
@@ -289,18 +377,17 @@ def launch_gradio_interfaces():
     
     # Launch user interface on port 7860
     user_thread = threading.Thread(target=user_interface.launch, kwargs={
-        "server_name": "0.0.0.0",
+        "server_name": "localhost",
         "server_port": 7860,
         "share": False
     }, daemon=True)
     
     # Launch clinician interface on port 7861
     clinician_thread = threading.Thread(target=clinician_interface.launch, kwargs={
-        "server_name": "0.0.0.0",
+        "server_name": "localhost",
         "server_port": 7861,
         "share": False
     }, daemon=True)
-    
     user_thread.start()
     clinician_thread.start()
     

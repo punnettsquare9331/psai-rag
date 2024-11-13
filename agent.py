@@ -273,12 +273,12 @@ def create_user_interface():
         
         # Function to handle user messages
         def on_message(history, user_input, state):
-            if stop_event.is_set():
+            """             if stop_event.is_set():
                 response = "The chatbot has been stopped by a clinician. Please contact support for further assistance."
                 history.append((user_input, response))
                 log_conversation(user_input, response, state['protocol_id'])
                 return history, state
-            
+             """
             if not state['protocol_selected']:
                 # First user input: match to a protocol
                 protocol_id, protocol_name, protocol_text, score = find_relevant_protocol(user_input)
@@ -355,7 +355,8 @@ def create_clinician_interface():
         # Function to clear conversation history
         def clear_history():
             clear_conversation_history()
-            return "Conversation history has been cleared.", update_clinician_view()
+            update_clinician_view()
+            return "Conversation history has been cleared."
         
         def update_protocol_scores():
             if not protocol_scores:
@@ -388,9 +389,10 @@ def create_clinician_interface():
                 time.sleep(5)
         
         # Function to stop the chatbot
-        def stop_chatbot():
+        """         def stop_chatbot():
             stop_event.set()
-            return "Chatbot has been stopped.", update_protocol_info()
+            clear_conversation_history()
+            return "Chatbot has been stopped.", update_protocol_info() """
 
         gr.Markdown("# Clinician Dashboard")
         
@@ -411,12 +413,12 @@ def create_clinician_interface():
                 scoring_info = gr.Markdown(value="Fetching protocol scoring...", label="Protocol Scoring")
                 refresh_scoring_btn = gr.Button("Refresh Protocol Scoring")
                 refresh_scoring_btn.click(fn=update_protocol_scores, outputs=scoring_info)
-                stop_btn = gr.Button("Stop Chatbot")
+                # stop_btn = gr.Button("Stop Chatbot")
 
                 #stop_btn.style(full_width=True, variant="stop")
         # Set up button actions
         update_btn.click(fn=update_clinician_view, outputs=clinician_history)
-        stop_btn.click(fn=stop_chatbot, outputs=[clinician_history, protocol_info])
+        # stop_btn.click(fn=stop_chatbot, outputs=[clinician_history, protocol_info])
         
 
     return clinician_interface

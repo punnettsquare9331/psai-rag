@@ -1,3 +1,4 @@
+
 import os
 import threading
 from uuid import uuid4
@@ -6,7 +7,6 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 import gradio as gr
 import time
-
 from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_community.llms import OpenAI
@@ -108,7 +108,7 @@ def find_relevant_protocol(user_input):
     docs = vectorStore.similarity_search_with_score(user_input, K=2)
     if docs:
         protocol, score = docs[0]
-        if score > 0.9:
+        if score > 0.95:
             return None, None, None, score
         protocol_id = protocol.metadata.get("protocol_id", "unknown")
         protocol_name = protocol.metadata.get("protocol_name", "Unknown Protocol")
@@ -161,7 +161,7 @@ def get_conversation_history():
             protocol_text = "No protocol"
     
         # Append the formatted conversation entry to history_text
-        history_text += f"[{timestamp_str}]\n**User:** {user_msg}\n**PSAI:** {psai_response}\n**Protocol:** {protocol_text}\n\n"
+        history_text += f"[{timestamp_str}]\n**User:** {user_msg}\n**psai:** {psai_response}\n**Protocol:** {protocol_text}\n\n"
     
     return history_text
 
@@ -186,28 +186,80 @@ protocol_scores = {}
 # -------------------- User Interface -------------------- #
 
 def create_user_interface():
-    with gr.Blocks() as user_interface:
-        gr.Markdown("# PS.AI")
-        
+    with gr.Blocks(css="""
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+        *, body, .gradio-container {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9fbfd;
+            color: #333333;
+        }
+
+        .gr-button-primary {
+            background-color: #4A90E2;
+            color: white;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-weight: 600;
+        }
+
+        .gr-button-primary:hover {
+            background-color: #357ABD;
+        }
+
+        .gradio-container h1, .gradio-container h2, .gradio-container h3 {
+            color: #4A90E2;
+        }
+
+        /* Live status indicator styling */
+        #live_status {
+            font-size: 14px;
+            color: #555555;
+        }
+    """) as user_interface:
+        # Header Section
         with gr.Row():
+            gr.Markdown("""
+                <div style="text-align: center;">
+                    <img src="https://resplendent-tartufo-44d2df.netlify.app/static/carbonift-7e7c45f6345b7ff58f1429b30a003654.png" alt="Clinic Logo" style="width: 120px; border-radius: 12px; margin-bottom: 10px;"/>
+                    <h1 style="color: #4A90E2; font-weight: 600; margin: 0;">Welcome to PS.AI</h1>
+                    <p style="font-size: 16px; color: #555; margin: 5px 0;">Your trusted mental health pre-screener</p>
+                </div>
+            """)
+
+        # Chat and Status Section
+        with gr.Row():
+            # Chatbot Component
             chatbot = gr.Chatbot(
-                label="Conversation", 
+                label="Conversation",
                 show_label=False,
-                value=[("Hi PSAI", "Hello, I'm PSAI. How are you feeling today? I'm here to listen and understand your current state of mind. Please share any thoughts, emotions, or concerns you're experiencing—no matter how big or small. Let's work through this together.")]  
+                elem_id="chatbot",
+                value=[
+                    ("Hi psai", "Hello, I'm psai. How are you feeling today? I'm here to listen and understand your current state of mind. Please share any thoughts, emotions, or concerns you're experiencing—no matter how big or small. Let's work through this together.")
+                ]
             )
+
             # Live Status Indicator
-            with gr.Column(scale=1, min_width=100):
+            with gr.Column(scale=1, min_width=150):
                 gr.Markdown(
                     """
-                    <div style="display: flex; align-items: center;">
-                        <span style="height: 15px; width: 15px; background-color: green; border-radius: 50%; display: inline-block; margin-right: 5px;"></span>
-                        <span>Dr. Tester is live</span>
+                    <div style="display: flex; align-items: center; justify-content: center; padding: 10px; background-color: #ffffff; border: 1px solid #e3e7eb; border-radius: 8px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+                        <span style="height: 15px; width: 15px; background-color: #4CAF50; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
+                        <span style="font-size: 14px; font-weight: 600; color: #555;">Dr. Tester is live</span>
                     </div>
                     """,
                     elem_id="live_status"
                 )
-        
-        textbox = gr.Textbox(placeholder="Type your response here...", label="Your Message")
+
+        # Textbox Section
+        textbox = gr.Textbox(
+            placeholder="Type your response here...",
+            label="Your Message",
+            lines=1,
+            elem_id="textbox",
+            container=False,
+            interactive=True
+        )
         
         # Initialize state variables
         state = gr.State({
@@ -396,3 +448,4 @@ def launch_gradio_interfaces():
 
 if __name__ == "__main__":
     launch_gradio_interfaces()
+

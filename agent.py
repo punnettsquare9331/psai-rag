@@ -24,7 +24,7 @@ os.environ['MONGODB_ATLAS_CLUSTER_URI'] = os.getenv('MONGODB_ATLAS_CLUSTER_URI')
 # MongoDB setup
 client = MongoClient(os.environ['MONGODB_ATLAS_CLUSTER_URI'])
 DB_NAME = "phenx_data"
-COLLECTION_NAME = "PhenX_langchain_loader_with_embeddings"  # Ensure this matches your data cleaning code
+COLLECTION_NAME = "PhenX_langchain_loader_with_embeddings_v2"  # Ensure this matches your data cleaning code
 MONGODB_COLLECTION = client[DB_NAME][COLLECTION_NAME]
 CONVERSATION_COLLECTION = client[DB_NAME]["Conversations"]
 
@@ -83,14 +83,39 @@ def log_conversation(user_input, response, protocol_id):
 
 # Function to fetch conversation history from MongoDB
 def get_conversation_history():
+    # Fetch all conversation entries sorted by timestamp in ascending order
     conversations = list(CONVERSATION_COLLECTION.find().sort("timestamp", 1))
     history_text = ""
+    
     for conv in conversations:
+        # Retrieve user message and PSAI response
         user_msg = conv.get("user_message", "")
         psai_response = conv.get("psai_response", "")
-        timestamp = conv.get("timestamp", "").strftime("%Y-%m-%d %H:%M:%S")
-        history_text += f"[{timestamp}]\n**User:** {user_msg}\n**PSAI:** {psai_response}\n\n"
+        
+        # Retrieve protocol_id; default to None if not present
+        protocol_id = conv.get("protocol_id")
+        
+        # Format timestamp; default to empty string if not present
+        timestamp = conv.get("timestamp")
+        if timestamp:
+            timestamp_str = timestamp.strftime("%Y-%m-%d %H:%M:%S")
+        else:
+            timestamp_str = "Unknown Time"
+        
+        # Check if protocol_id exists and is valid
+        if protocol_id and protocol_id != "unknown":
+            # Construct the protocol link using the correct format
+            protocol_link = f"https://www.phenxtoolkit.org/protocols/view/{protocol_id}"
+            # Create a Markdown-formatted clickable link
+            protocol_text = f"[Protocol {protocol_id}]({protocol_link})"
+        else:
+            protocol_text = "No protocol"
+    
+        # Append the formatted conversation entry to history_text
+        history_text += f"[{timestamp_str}]\n**User:** {user_msg}\n**PSAI:** {psai_response}\n**Protocol:** {protocol_text}\n\n"
+    
     return history_text
+
 
 # -------------------- Shared Resources -------------------- #
 

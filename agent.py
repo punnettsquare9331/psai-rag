@@ -186,7 +186,9 @@ protocol_scores = {}
 # -------------------- User Interface -------------------- #
 
 def create_user_interface():
-    with gr.Blocks(css="""
+    with gr.Blocks(
+        title="PSAI",  # Browser title
+        css="""
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
         *, body, .gradio-container {
@@ -222,7 +224,7 @@ def create_user_interface():
             gr.Markdown("""
                 <div style="text-align: center;">
                     <img src="https://resplendent-tartufo-44d2df.netlify.app/static/carbonift-7e7c45f6345b7ff58f1429b30a003654.png" alt="Clinic Logo" style="width: 120px; border-radius: 12px; margin-bottom: 10px;"/>
-                    <h1 style="color: #4A90E2; font-weight: 600; margin: 0;">Welcome to PS.AI</h1>
+                    <h1 style="color: #4A90E2; font-weight: 600; margin: 0;">Welcome to PSAI</h1>
                     <p style="font-size: 16px; color: #555; margin: 5px 0;">Your trusted mental health pre-screener</p>
                 </div>
             """)
@@ -235,7 +237,7 @@ def create_user_interface():
                 show_label=False,
                 elem_id="chatbot",
                 value=[
-                    ("Hi psai", "Hello, I'm psai. How are you feeling today? I'm here to listen and understand your current state of mind. Please share any thoughts, emotions, or concerns you're experiencing—no matter how big or small. Let's work through this together.")
+                    ("Hi PSAI", "Hello, I'm PSAI. How are you feeling today? I'm here to listen and understand your current state of mind. Please share any thoughts, emotions, or concerns you're experiencing—no matter how big or small. Let's work through this together.")
                 ]
             )
 
@@ -346,7 +348,7 @@ def create_user_interface():
 # -------------------- Clinician Dashboard -------------------- #
 
 def create_clinician_interface():
-    with gr.Blocks() as clinician_interface:
+    with gr.Blocks(title="PSAI Clincian") as clinician_interface:
 
         # Function to update conversation history
         def update_clinician_view():

@@ -120,9 +120,10 @@ lxml==5.3.0
     # via python-docx
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.5
+markupsafe==2.0.1
     # via gradio
     # via jinja2
+    # via psai-rag
 marshmallow==3.23.1
     # via dataclasses-json
 mdurl==0.1.2

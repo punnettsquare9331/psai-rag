@@ -434,14 +434,14 @@ def launch_gradio_interfaces():
     # Launch user interface on port 7860
     user_thread = threading.Thread(target=user_interface.launch, kwargs={
         "server_name": "localhost",
-        "server_port": 7860,
+        "server_port": 80,
         "share": False
     }, daemon=True)
     
     # Launch clinician interface on port 7861
     clinician_thread = threading.Thread(target=clinician_interface.launch, kwargs={
         "server_name": "localhost",
-        "server_port": 7861,
+        "server_port": 81,
         "share": False
     }, daemon=True)
     user_thread.start()
